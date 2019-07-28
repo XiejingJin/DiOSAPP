@@ -1,0 +1,6 @@
+framework module Pods_DiOSAPP_DiOSAPP_Extension {
+  umbrella header "Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AADB0B622E91546005C2D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0B522E91546005C2D8C /* AppDelegate.swift */; };
+		3AADB0B822E91546005C2D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0B722E91546005C2D8C /* ViewController.swift */; };
+		3AADB0BB22E91546005C2D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AADB0B922E91546005C2D8C /* Main.storyboard */; };
+		3AADB0BE22E91546005C2D8C /* DiOSAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0BC22E91546005C2D8C /* DiOSAPP.xcdatamodeld */; };
+		3AADB0C022E91548005C2D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AADB0BF22E91548005C2D8C /* Assets.xcassets */; };
+		3AADB0C322E91548005C2D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AADB0C122E91548005C2D8C /* LaunchScreen.storyboard */; };
+		3AADB0CE22E91548005C2D8C /* DiOSAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0CD22E91548005C2D8C /* DiOSAPPTests.swift */; };
+		3AADB0D922E91548005C2D8C /* DiOSAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0D822E91548005C2D8C /* DiOSAPPUITests.swift */; };
+		3AADB0E822E91970005C2D8C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AADB0E722E91970005C2D8C /* NetworkExtension.framework */; };
+		3AADB0F022E91D50005C2D8C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADB0EF22E91D50005C2D8C /* PacketTunnelProvider.swift */; };
+		3AADB0F522E91D50005C2D8C /* DiOSAPP_Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AADB0ED22E91D50005C2D8C /* DiOSAPP_Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3AADB0FA22E91EA9005C2D8C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AADB0E722E91970005C2D8C /* NetworkExtension.framework */; };
+		46CE2C23719382C25F42D2C6 /* Pods_DiOSAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B479B182DDB10E700723E2 /* Pods_DiOSAPPUITests.framework */; };
+		B64DC50C223CCDA2E71162A2 /* Pods_DiOSAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0350961D83C64F5062BD296 /* Pods_DiOSAPPTests.framework */; };
+		CBB68C0504ECE5671A0A2823 /* Pods_DiOSAPP_DiOSAPP_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965D20A94AC5F050025EEDD9 /* Pods_DiOSAPP_DiOSAPP_Extension.framework */; };
+		E7464B26A0A845DC83BF91D7 /* Pods_DiOSAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EEF012E0F36A7DFB83859D /* Pods_DiOSAPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AADB0CA22E91548005C2D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AADB0AA22E91546005C2D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AADB0B122E91546005C2D8C;
+			remoteInfo = DiOSAPP;
+		};
+		3AADB0D522E91548005C2D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AADB0AA22E91546005C2D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AADB0B122E91546005C2D8C;
+			remoteInfo = DiOSAPP;
+		};
+		3AADB0F322E91D50005C2D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AADB0AA22E91546005C2D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AADB0EC22E91D50005C2D8C;
+			remoteInfo = DiOSAPP_Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AADB0F922E91D50005C2D8C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3AADB0F522E91D50005C2D8C /* DiOSAPP_Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04067F3EE5B6E410AE039A64 /* Pods-DiOSAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPP.release.xcconfig"; path = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP.release.xcconfig"; sourceTree = "<group>"; };
+		1066D4E8E6395AA119EF60FE /* Pods-DiOSAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPP.debug.xcconfig"; path = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		120365815BAD38C992AC9850 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig"; path = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2038DB4CAC524C05D52C5113 /* Pods-DiOSAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2487EE564243368FF40213C7 /* Pods-DiOSAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPPTests.release.xcconfig"; path = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		29B479B182DDB10E700723E2 /* Pods_DiOSAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiOSAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AADB0B222E91546005C2D8C /* DiOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AADB0B522E91546005C2D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AADB0B722E91546005C2D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AADB0BA22E91546005C2D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AADB0BD22E91546005C2D8C /* DiOSAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiOSAPP.xcdatamodel; sourceTree = "<group>"; };
+		3AADB0BF22E91548005C2D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AADB0C222E91548005C2D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AADB0C422E91548005C2D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AADB0C922E91548005C2D8C /* DiOSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiOSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AADB0CD22E91548005C2D8C /* DiOSAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiOSAPPTests.swift; sourceTree = "<group>"; };
+		3AADB0CF22E91548005C2D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AADB0D422E91548005C2D8C /* DiOSAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiOSAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AADB0D822E91548005C2D8C /* DiOSAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiOSAPPUITests.swift; sourceTree = "<group>"; };
+		3AADB0DA22E91548005C2D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AADB0E622E91966005C2D8C /* DiOSAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiOSAPP.entitlements; sourceTree = "<group>"; };
+		3AADB0E722E91970005C2D8C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		3AADB0ED22E91D50005C2D8C /* DiOSAPP_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiOSAPP_Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AADB0EF22E91D50005C2D8C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		3AADB0F122E91D50005C2D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AADB0F222E91D50005C2D8C /* DiOSAPP_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiOSAPP_Extension.entitlements; sourceTree = "<group>"; };
+		3AADB0FB22E91FFB005C2D8C /* TunnelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TunnelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46380D1177A1D0567D4B093F /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig"; path = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		47EEF012E0F36A7DFB83859D /* Pods_DiOSAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiOSAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF2AF755A07F66E166CB9A /* Pods-DiOSAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEAF7608F98DCBD7B1654D2 /* Pods-DiOSAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiOSAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		965D20A94AC5F050025EEDD9 /* Pods_DiOSAPP_DiOSAPP_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiOSAPP_DiOSAPP_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0350961D83C64F5062BD296 /* Pods_DiOSAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiOSAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AADB0AF22E91546005C2D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7464B26A0A845DC83BF91D7 /* Pods_DiOSAPP.framework in Frameworks */,
+				3AADB0E822E91970005C2D8C /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0C622E91548005C2D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64DC50C223CCDA2E71162A2 /* Pods_DiOSAPPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0D122E91548005C2D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CE2C23719382C25F42D2C6 /* Pods_DiOSAPPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0EA22E91D50005C2D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0FA22E91EA9005C2D8C /* NetworkExtension.framework in Frameworks */,
+				CBB68C0504ECE5671A0A2823 /* Pods_DiOSAPP_DiOSAPP_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DBCBA612168C653DE807C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0FB22E91FFB005C2D8C /* TunnelKit.framework */,
+				3AADB0E722E91970005C2D8C /* NetworkExtension.framework */,
+				47EEF012E0F36A7DFB83859D /* Pods_DiOSAPP.framework */,
+				D0350961D83C64F5062BD296 /* Pods_DiOSAPPTests.framework */,
+				29B479B182DDB10E700723E2 /* Pods_DiOSAPPUITests.framework */,
+				965D20A94AC5F050025EEDD9 /* Pods_DiOSAPP_DiOSAPP_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AADB0A922E91546005C2D8C = {
+			isa = PBXGroup;
+			children = (
+				3AADB0B422E91546005C2D8C /* DiOSAPP */,
+				3AADB0CC22E91548005C2D8C /* DiOSAPPTests */,
+				3AADB0D722E91548005C2D8C /* DiOSAPPUITests */,
+				3AADB0EE22E91D50005C2D8C /* DiOSAPP_Extension */,
+				3AADB0B322E91546005C2D8C /* Products */,
+				B7E96DD477B38918289E2EA6 /* Pods */,
+				0DBCBA612168C653DE807C0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AADB0B322E91546005C2D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0B222E91546005C2D8C /* DiOSAPP.app */,
+				3AADB0C922E91548005C2D8C /* DiOSAPPTests.xctest */,
+				3AADB0D422E91548005C2D8C /* DiOSAPPUITests.xctest */,
+				3AADB0ED22E91D50005C2D8C /* DiOSAPP_Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AADB0B422E91546005C2D8C /* DiOSAPP */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0E622E91966005C2D8C /* DiOSAPP.entitlements */,
+				3AADB0B522E91546005C2D8C /* AppDelegate.swift */,
+				3AADB0B722E91546005C2D8C /* ViewController.swift */,
+				3AADB0B922E91546005C2D8C /* Main.storyboard */,
+				3AADB0BF22E91548005C2D8C /* Assets.xcassets */,
+				3AADB0C122E91548005C2D8C /* LaunchScreen.storyboard */,
+				3AADB0C422E91548005C2D8C /* Info.plist */,
+				3AADB0BC22E91546005C2D8C /* DiOSAPP.xcdatamodeld */,
+			);
+			path = DiOSAPP;
+			sourceTree = "<group>";
+		};
+		3AADB0CC22E91548005C2D8C /* DiOSAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0CD22E91548005C2D8C /* DiOSAPPTests.swift */,
+				3AADB0CF22E91548005C2D8C /* Info.plist */,
+			);
+			path = DiOSAPPTests;
+			sourceTree = "<group>";
+		};
+		3AADB0D722E91548005C2D8C /* DiOSAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0D822E91548005C2D8C /* DiOSAPPUITests.swift */,
+				3AADB0DA22E91548005C2D8C /* Info.plist */,
+			);
+			path = DiOSAPPUITests;
+			sourceTree = "<group>";
+		};
+		3AADB0EE22E91D50005C2D8C /* DiOSAPP_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AADB0EF22E91D50005C2D8C /* PacketTunnelProvider.swift */,
+				3AADB0F122E91D50005C2D8C /* Info.plist */,
+				3AADB0F222E91D50005C2D8C /* DiOSAPP_Extension.entitlements */,
+			);
+			path = DiOSAPP_Extension;
+			sourceTree = "<group>";
+		};
+		B7E96DD477B38918289E2EA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1066D4E8E6395AA119EF60FE /* Pods-DiOSAPP.debug.xcconfig */,
+				04067F3EE5B6E410AE039A64 /* Pods-DiOSAPP.release.xcconfig */,
+				7BEAF7608F98DCBD7B1654D2 /* Pods-DiOSAPPTests.debug.xcconfig */,
+				2487EE564243368FF40213C7 /* Pods-DiOSAPPTests.release.xcconfig */,
+				52DF2AF755A07F66E166CB9A /* Pods-DiOSAPPUITests.debug.xcconfig */,
+				2038DB4CAC524C05D52C5113 /* Pods-DiOSAPPUITests.release.xcconfig */,
+				46380D1177A1D0567D4B093F /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */,
+				120365815BAD38C992AC9850 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AADB0B122E91546005C2D8C /* DiOSAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AADB0DD22E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPP" */;
+			buildPhases = (
+				FF4994498A84CA4666DC6F27 /* [CP] Check Pods Manifest.lock */,
+				3AADB0AE22E91546005C2D8C /* Sources */,
+				3AADB0AF22E91546005C2D8C /* Frameworks */,
+				3AADB0B022E91546005C2D8C /* Resources */,
+				3A3F96786894D55A96793E3D /* [CP] Embed Pods Frameworks */,
+				3AADB0F922E91D50005C2D8C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AADB0F422E91D50005C2D8C /* PBXTargetDependency */,
+			);
+			name = DiOSAPP;
+			productName = DiOSAPP;
+			productReference = 3AADB0B222E91546005C2D8C /* DiOSAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AADB0C822E91548005C2D8C /* DiOSAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AADB0E022E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPPTests" */;
+			buildPhases = (
+				8F6D6477B1CB2D1F6E34469F /* [CP] Check Pods Manifest.lock */,
+				3AADB0C522E91548005C2D8C /* Sources */,
+				3AADB0C622E91548005C2D8C /* Frameworks */,
+				3AADB0C722E91548005C2D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AADB0CB22E91548005C2D8C /* PBXTargetDependency */,
+			);
+			name = DiOSAPPTests;
+			productName = DiOSAPPTests;
+			productReference = 3AADB0C922E91548005C2D8C /* DiOSAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AADB0D322E91548005C2D8C /* DiOSAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AADB0E322E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPPUITests" */;
+			buildPhases = (
+				86014E7D59FAEA3C5FD44728 /* [CP] Check Pods Manifest.lock */,
+				3AADB0D022E91548005C2D8C /* Sources */,
+				3AADB0D122E91548005C2D8C /* Frameworks */,
+				3AADB0D222E91548005C2D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AADB0D622E91548005C2D8C /* PBXTargetDependency */,
+			);
+			name = DiOSAPPUITests;
+			productName = DiOSAPPUITests;
+			productReference = 3AADB0D422E91548005C2D8C /* DiOSAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3AADB0EC22E91D50005C2D8C /* DiOSAPP_Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AADB0F822E91D50005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPP_Extension" */;
+			buildPhases = (
+				929A60EBC8C492B08D78331E /* [CP] Check Pods Manifest.lock */,
+				3AADB0E922E91D50005C2D8C /* Sources */,
+				3AADB0EA22E91D50005C2D8C /* Frameworks */,
+				3AADB0EB22E91D50005C2D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiOSAPP_Extension;
+			productName = DiOSAPP_Extension;
+			productReference = 3AADB0ED22E91D50005C2D8C /* DiOSAPP_Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AADB0AA22E91546005C2D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Alex M";
+				TargetAttributes = {
+					3AADB0B122E91546005C2D8C = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3AADB0C822E91548005C2D8C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3AADB0B122E91546005C2D8C;
+					};
+					3AADB0D322E91548005C2D8C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3AADB0B122E91546005C2D8C;
+					};
+					3AADB0EC22E91D50005C2D8C = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3AADB0AD22E91546005C2D8C /* Build configuration list for PBXProject "DiOSAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AADB0A922E91546005C2D8C;
+			productRefGroup = 3AADB0B322E91546005C2D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AADB0B122E91546005C2D8C /* DiOSAPP */,
+				3AADB0C822E91548005C2D8C /* DiOSAPPTests */,
+				3AADB0D322E91548005C2D8C /* DiOSAPPUITests */,
+				3AADB0EC22E91D50005C2D8C /* DiOSAPP_Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AADB0B022E91546005C2D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0C322E91548005C2D8C /* LaunchScreen.storyboard in Resources */,
+				3AADB0C022E91548005C2D8C /* Assets.xcassets in Resources */,
+				3AADB0BB22E91546005C2D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0C722E91548005C2D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0D222E91548005C2D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0EB22E91D50005C2D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3F96786894D55A96793E3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86014E7D59FAEA3C5FD44728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiOSAPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6D6477B1CB2D1F6E34469F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiOSAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		929A60EBC8C492B08D78331E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiOSAPP-DiOSAPP_Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4994498A84CA4666DC6F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiOSAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AADB0AE22E91546005C2D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0B822E91546005C2D8C /* ViewController.swift in Sources */,
+				3AADB0B622E91546005C2D8C /* AppDelegate.swift in Sources */,
+				3AADB0BE22E91546005C2D8C /* DiOSAPP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0C522E91548005C2D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0CE22E91548005C2D8C /* DiOSAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0D022E91548005C2D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0D922E91548005C2D8C /* DiOSAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AADB0E922E91D50005C2D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AADB0F022E91D50005C2D8C /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AADB0CB22E91548005C2D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AADB0B122E91546005C2D8C /* DiOSAPP */;
+			targetProxy = 3AADB0CA22E91548005C2D8C /* PBXContainerItemProxy */;
+		};
+		3AADB0D622E91548005C2D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AADB0B122E91546005C2D8C /* DiOSAPP */;
+			targetProxy = 3AADB0D522E91548005C2D8C /* PBXContainerItemProxy */;
+		};
+		3AADB0F422E91D50005C2D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AADB0EC22E91D50005C2D8C /* DiOSAPP_Extension */;
+			targetProxy = 3AADB0F322E91D50005C2D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AADB0B922E91546005C2D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AADB0BA22E91546005C2D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AADB0C122E91548005C2D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AADB0C222E91548005C2D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AADB0DB22E91548005C2D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AADB0DC22E91548005C2D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AADB0DE22E91548005C2D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1066D4E8E6395AA119EF60FE /* Pods-DiOSAPP.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DiOSAPP/DiOSAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HLNCYX6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DiOSAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiOSAPP.openVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AADB0DF22E91548005C2D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04067F3EE5B6E410AE039A64 /* Pods-DiOSAPP.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DiOSAPP/DiOSAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HLNCYX6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DiOSAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiOSAPP.openVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AADB0E122E91548005C2D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEAF7608F98DCBD7B1654D2 /* Pods-DiOSAPPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiOSAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dfsdf.DiOSAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiOSAPP.app/DiOSAPP";
+			};
+			name = Debug;
+		};
+		3AADB0E222E91548005C2D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487EE564243368FF40213C7 /* Pods-DiOSAPPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiOSAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dfsdf.DiOSAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiOSAPP.app/DiOSAPP";
+			};
+			name = Release;
+		};
+		3AADB0E422E91548005C2D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DF2AF755A07F66E166CB9A /* Pods-DiOSAPPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiOSAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dfsdf.DiOSAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiOSAPP;
+			};
+			name = Debug;
+		};
+		3AADB0E522E91548005C2D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2038DB4CAC524C05D52C5113 /* Pods-DiOSAPPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiOSAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dfsdf.DiOSAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiOSAPP;
+			};
+			name = Release;
+		};
+		3AADB0F622E91D50005C2D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46380D1177A1D0567D4B093F /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiOSAPP_Extension/DiOSAPP_Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HLNCYX6;
+				INFOPLIST_FILE = DiOSAPP_Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiOSAPP.openVPN.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AADB0F722E91D50005C2D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120365815BAD38C992AC9850 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiOSAPP_Extension/DiOSAPP_Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HLNCYX6;
+				INFOPLIST_FILE = DiOSAPP_Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiOSAPP.openVPN.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AADB0AD22E91546005C2D8C /* Build configuration list for PBXProject "DiOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AADB0DB22E91548005C2D8C /* Debug */,
+				3AADB0DC22E91548005C2D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AADB0DD22E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AADB0DE22E91548005C2D8C /* Debug */,
+				3AADB0DF22E91548005C2D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AADB0E022E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AADB0E122E91548005C2D8C /* Debug */,
+				3AADB0E222E91548005C2D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AADB0E322E91548005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AADB0E422E91548005C2D8C /* Debug */,
+				3AADB0E522E91548005C2D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AADB0F822E91D50005C2D8C /* Build configuration list for PBXNativeTarget "DiOSAPP_Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AADB0F622E91D50005C2D8C /* Debug */,
+				3AADB0F722E91D50005C2D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AADB0BC22E91546005C2D8C /* DiOSAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AADB0BD22E91546005C2D8C /* DiOSAPP.xcdatamodel */,
+			);
+			currentVersion = 3AADB0BD22E91546005C2D8C /* DiOSAPP.xcdatamodel */;
+			path = DiOSAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AADB0AA22E91546005C2D8C /* Project object */;
+}

@@ -1,0 +1,1953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B8DFF8583A4AD4A2EC8FC32ABE7D6FF /* OpenSSL-Apple */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7CF05F4E8433289F81624BAD0397FE4B /* Build configuration list for PBXAggregateTarget "OpenSSL-Apple" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Apple";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0091F9C84BFCD9374A073F1A0D24A1EF /* NWUDPSessionState+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A989FD79EB2FF23F02FCCC670BFD7A7 /* NWUDPSessionState+Description.swift */; };
+		0FA970C08E03E0AD6AFC5A3ED8BFB75A /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50E2F7E41AD9103264B41F2306284DF /* NetworkExtension.framework */; };
+		13584405EAC93033A1B7227EEFDE6C34 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81A9D4253F4D73ED8BF8DAE89C1218 /* Keychain.swift */; };
+		17D64E86E8FD75A68FDE70B24ED33F91 /* InterfaceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1D00CF8C18A946E4030B516E81325 /* InterfaceObserver.swift */; };
+		18F5132062287F79EAB1006A602D0EFE /* GenericSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AC08A7E66AA84D418A03F9979D657 /* GenericSocket.swift */; };
+		1A3CBAEC81A5E25575EF5248350A22E6 /* Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = BC19758C29F7EB51021DF0A06F212C11 /* Crypto.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1A5622E1FB9D17B26D4134A962A6E3B7 /* OpenVPNSession+PIA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424C0D2F37873A87ECC13981A618D64 /* OpenVPNSession+PIA.swift */; };
+		1C87D79776BDDAE3FF4EFD5FF3510531 /* ReplayProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 166DF0DD9DBF905C92CC178B4B8FF0A3 /* ReplayProtector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1F0202F10E11C06BE8D920A5C9CC36EF /* CryptoCBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD3A0770C59266D98DCAA570DC1E69 /* CryptoCBC.m */; };
+		224178D3026921A81BFE7F886315C96B /* DNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1775046DF8644D37C3D16A243295BE /* DNS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		27F4B80F7CC7AFD9EAA9998D0E1A0A80 /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1519E0AED2BEAD27FF91A49E03486 /* EndpointProtocol.swift */; };
+		293068BC3AACE78F605B99EE5251852F /* LinkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C852AFCA5E21CC9BC27023F81C27B6 /* LinkInterface.swift */; };
+		2C137C12B02A16B703C890C4DB151C27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		2C5A2C508EB5DD5CDDD924CF40A69D95 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE829A7F86724C5A699819D6004290 /* Proxy.swift */; };
+		2F71F06BFCC59375A917C16DFAA78126 /* Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53666166321B0C2B7FDCAF4B25EA2F6D /* Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3229D6A15960D024E6F38265097717A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		322A24D2425F5B70DC48C8EF1FF6A511 /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F1EB4C8092DCDC94184B82584D3B8 /* Packet.swift */; };
+		34FC68E2DE356F091BCD62C4BCD506B6 /* PacketMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6E88FFAF5CA654EDCE75CA99BDC2B3 /* PacketMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		38584F3E70B8996DB177371FEB49660C /* ZeroingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36E01390D41C5EF078D34FF712A2BAE /* ZeroingData.swift */; };
+		399DB1B418AA9D80C55CFC00B25521A6 /* Pods-DiOSAPPUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 408FAC8F1816A6BA51200448F628F0A9 /* Pods-DiOSAPPUITests-dummy.m */; };
+		3B5C68A889447D559CC3F7DEB7991E14 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759C40685F13D7AF01FC00A9143855D /* Filter.swift */; };
+		3D763AE749ECB64E4B0888A359EB50DA /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98266EAEE175002DB6F2D9D3D62626C /* BaseDestination.swift */; };
+		3EDAB3E04892CE66E2029125650FE0D8 /* BidirectionalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A6A378E5B345BE88D796AAA693D10E /* BidirectionalState.swift */; };
+		3F48F59602DE64D25E7AB06372A56BDC /* CompressionFraming.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B468451A8E0B118B73F9B8686AAD8C /* CompressionFraming.swift */; };
+		3FF05BDEE58E8927F1768D4837FBC273 /* PacketStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BA858A0F25419EC6FEC7FEEB9B24A /* PacketStream.m */; };
+		4165ED5FB7FC572C120E782FCA8858B3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92654696760B4E9B85ECAFF9A2DCA90E /* Utils.swift */; };
+		42C9D43A06CA9FCC0575E3BB35FB99A3 /* ZeroingData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12BCF0A5AA21B90980022AD35DF65C /* ZeroingData.m */; };
+		43469DAD95DC571613EAF4852A2240AC /* Allocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 035279DAE9FB436ABEC2D3E4EB1908A4 /* Allocation.m */; };
+		435E69132E914A354CF82DFF9087E6B9 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B996E63E8E97560440859E5AFC32A /* ConsoleDestination.swift */; };
+		4454A6947492608D0818818890650778 /* DataPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77091A847F275F992E89C82732301 /* DataPath.m */; };
+		46544C3ADF8E8C10589E36D5D56B9AFC /* Pods-DiOSAPPUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 046453FE564299B9B1129C069384326D /* Pods-DiOSAPPUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47714386578EC27CBB5573B2DCC80260 /* TunnelInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3A62006BF568507AB828D0C70022E /* TunnelInterface.swift */; };
+		48D48A66B8A7D7008A37BECE533BF6A9 /* OpenVPNTunnelProvider+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B015DB504429FE2DDBC82A7D3DE86C /* OpenVPNTunnelProvider+Configuration.swift */; };
+		49DE04D6D4381EDEC1BF07B8E52A087D /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA15831864AEDB98209D7AEF6C4D460 /* SocketType.swift */; };
+		49FB9A9BCFAB499122340AC8AC410ED5 /* NEUDPLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E34A96006FC35DB3C93948E288C6D6 /* NEUDPLink.swift */; };
+		4D4F58AE266BC2DC8938CE1BD347DEB7 /* CoreConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A4CEBBA1D8F127E772BAA39E6F71F7 /* CoreConfiguration.swift */; };
+		53E5F201AEE6ADC840C8AF38CD328359 /* ConnectionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1038F7AE0A5C7BEFB9DDBAD50BD0FBB /* ConnectionStrategy.swift */; };
+		560600A088217826D052A0001B0C10F1 /* Data+Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C772AC7838AFB6D7B2F46181F0F3A53B /* Data+Manipulation.swift */; };
+		57D01FB6840244F143F8559159170D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		5CDF08B6BC0674B270AF50E057A1B6CD /* Pods-DiOSAPPTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB19A5FC522F941138B05D1944995F /* Pods-DiOSAPPTests-dummy.m */; };
+		5E88DA0FE25935D062C393F17B377E26 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5437266EFE9AD7C70ECBCEBCC8784E2 /* SwiftyBeaver.framework */; };
+		6407C7B87EB630480CBA6FB1ED08D9DE /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8BAF932EB4A04820C619BFE9BF4383 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6411904BC4A3764FD5A63CEDC5F21BB7 /* TunnelKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331F03AA0833BE89CED175D6E617BAF5 /* TunnelKit-dummy.m */; };
+		653F9DB977D5160C8E273223B689BDD2 /* StaticKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681F22E50B898B98411353CB263DC630 /* StaticKey.swift */; };
+		65FC29826F1D21584B11C91602CA0ED3 /* ReplayProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9A057F9B53C8B2391997EFC0ACEE8D /* ReplayProtector.m */; };
+		68544CB24D9CF53936EC5C9C2333D6F7 /* RoutingTable.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB1AB66575389C9291B6E276BC0E7BC /* RoutingTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		71D57BB7935B6CAB1D3DF27D62028409 /* NWTCPConnectionState+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4C0A57C9AD6D275FF848175CBBBC6 /* NWTCPConnectionState+Description.swift */; };
+		742FC3B0260E87421895F8E725668919 /* CryptoCBC.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5A537EAF2FBF2ECEA198982A16C82 /* CryptoCBC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74A7F9796CB6CDAEDF1950DE02735551 /* PushReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4568C3A686B1E1A7DBA3E9BAA70553 /* PushReply.swift */; };
+		74B9C323FEB0F12824D7719C3A1EC954 /* CoreConfiguration+OpenVPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9746216686ED4B5513F1699EC0F45 /* CoreConfiguration+OpenVPN.swift */; };
+		77328CF913F80B94D27F45F7C9275EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		7A5B39A1FFF45665EE9FA699881584A5 /* OpenVPNTunnelProvider+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAA015F14BF8B4BF0304340EBDFF66 /* OpenVPNTunnelProvider+Interaction.swift */; };
+		7A988FFF24ACEA436787C1A386DE43A3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6926DAA799888881FD82681DD3427571 /* Configuration.swift */; };
+		7AC060902546662E86FB77E526E7975F /* ConfigurationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A7FD059C7A9DFD963DBB69730A08F /* ConfigurationParser.swift */; };
+		7B38D7210E80904EB36C7C28AE3A0C30 /* Errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 312ECEFDDB0EBB968FE9858A9D754DB8 /* Errors.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7B4D8474D1384CB36FB87E937B5D1897 /* NSRegularExpression+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396B096F2E20D0380A52D7D6C9A7E12 /* NSRegularExpression+Shortcuts.swift */; };
+		7BA5A8189B38456A0BC2B7A0F178F26E /* OpenVPNSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DB4E43C460ED51CDBA58ADBDD8635 /* OpenVPNSession.swift */; };
+		7E88F6A86E61D605241F523AF261F6DF /* CryptoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D530B82E675315EFAF30C9EA0FD28B13 /* CryptoBox.m */; };
+		7EED7F749F7F44CDD431BB445729A16B /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F9B11E1E69C778EF3A2D9BFB2E6D8 /* SwiftyBeaver.swift */; };
+		804AAE43E8BF76E1411C9A6975CF7DED /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578C312F185543CF847DF07F5AA7DC3 /* DNSResolver.swift */; };
+		830AC211266A20EA05699D42F992688B /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644EF355ACBC059BED386E56FBC450C /* AES256CBC.swift */; };
+		84BD06AB311FF6C7FBBEE36CE1E2D541 /* PacketMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF38AE547022E07EA0EABB55F699F7 /* PacketMacros.m */; };
+		864285C398DC18F6F96EC77198042EAC /* TunnelKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B186F1A5BD508E3BC701FA7655A240 /* TunnelKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87746F3635A534433F384A6BB2FCF420 /* IPv6Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB9403C338372EBA86623F8B43B74E /* IPv6Settings.swift */; };
+		8AB7253560FB9A736392F853DEFD60ED /* CompressionFramingNative.h in Headers */ = {isa = PBXBuildFile; fileRef = E84A86DA28F5B96CE6CDF74DAFA36498 /* CompressionFramingNative.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AD3F6F17723BDAB71BA8F7FD6E4B907 /* NETunnelInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32771B798DDAF0D0760015C367746254 /* NETunnelInterface.swift */; };
+		8B58FA7B31153C0891805D89B6855CDF /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DD2AC658EC59AB4C4D3BCEB20C6D8E /* SwiftyBeaver-dummy.m */; };
+		8BD1797F0A4D11CD20393BE808AB1D65 /* ConfigurationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398437BB27A58B99878ADC15B92015E /* ConfigurationError.swift */; };
+		8F7E4A5C2589F9C8422F7352ECF90DC0 /* MSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AF8DB958C109D2DA3BF938C3BCF575 /* MSS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		900347FE2775587285502E792518D0FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		901468FF60A103B82F4BF2F2D801C27D /* NETCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8AFE68D1C176280FA715DCBF256D8 /* NETCPSocket.swift */; };
+		92C4CEE88B648BB661D1B21F869CF153 /* ControlPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7700494C1909CAF0DE0C3595BB903 /* ControlPacket.m */; };
+		9310801FBE04C82E80EC739DC04CEC34 /* TLSWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A4183DFB32156FFBC4667E38A75C6 /* TLSWrap.swift */; };
+		97E52C8F1E9C78C4F9C21AAEFCB0BE57 /* Pods-DiOSAPP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4584BB61D9D7E6C1955C6E6AC3EBA7 /* Pods-DiOSAPP-dummy.m */; };
+		9A6496A4D8696A15B20C8A1E2634E703 /* ControlPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BC2505266678B80AE6FBD174B60A11 /* ControlPacket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9B37523D5C9361BF42C52456F82DEA95 /* CryptoMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4454154E3A04244405D7241E26F212 /* CryptoMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9CB21A294066E9E4BDA33BD619FC6AAB /* CryptoCTR.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E7C76BD95FD6859A834439DF6CB288 /* CryptoCTR.m */; };
+		9D3D2E2F29CBF0BF587A9D4E0B492228 /* CryptoCTR.h in Headers */ = {isa = PBXBuildFile; fileRef = 65201958C1EB5547B8F520077480E56E /* CryptoCTR.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9F7EAC900A4E0460A300BEA623F8E1B7 /* RoutingTableEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 50733E4B5ABEAA67E2DCA82F975E3404 /* RoutingTableEntry.m */; };
+		A307657DDA8098E847412B701D350170 /* RoutingTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5449D85725C5B9DC89B427BC53EAE91F /* RoutingTable.m */; };
+		A3A003AA3B936AAEFB51BD42D5195861 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F38F72D87818A0554ADF5D255D2CD /* Extensions.swift */; };
+		A422092CE9C6D24ADDC56D30CE8B65EB /* CryptoBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 195122E432F2B2CCCA8E7919955BF224 /* CryptoBox.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A43FFD3184DF40B10BC0DF05E4B7DF24 /* SessionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914785C4714DE8E8A3B0B9FA09D91654 /* SessionKey.swift */; };
+		A71A9DF2B8BFDDD5F949795606A173E6 /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2875C97CBBA541C5CBA1FAAB0CDA54 /* Errors.m */; };
+		A7FEB3F0A5A9AD96218BEAF36FE18BE0 /* TLSBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 742D7E394A310D95C18769B08B5434EE /* TLSBox.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A8343731BD89CBAC8C362222A387A914 /* TLSBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F04401FD76AD45BEA87E0E9E693BF09C /* TLSBox.m */; };
+		A9761C40FC64E55AE11C632EC84CF477 /* NETCPLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70AFE95FA62DAAD460CF85197B6720 /* NETCPLink.swift */; };
+		AC35EB337233EA969EE7EF0490BA1D6C /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2614370EA26607A627AEAD5049003 /* SBPlatformDestination.swift */; };
+		AD176EFE4FFE9B1B06A078D76E0DED27 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF645CF8C92B40E754EF75921851185 /* Authenticator.swift */; };
+		ADC7390F43DE86CAD0EFA1998C62D03A /* SecureRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6370F6C95E569D74FD6198BB5D68A1 /* SecureRandom.swift */; };
+		AE2E991AC05EA9ED43452A89CAD8D07B /* Pods-DiOSAPP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 223630FBD82CBBE80D9A7197CCF22ABA /* Pods-DiOSAPP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1333BCCC13CC58034E9C315359FD25 /* Allocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC4B68F4DB49CE7E4BA665037396BB0 /* Allocation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B3B6351C44371E748095F12EEBA6862F /* OpenVPNTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F977190985B3C078893F5B80395B35D /* OpenVPNTunnelProvider.swift */; };
+		B43A1AC4E7C15DCA37E1FDB6FC872C56 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED7DD477C57E9B92825967A417EDAD3 /* Base64.swift */; };
+		B4AA1BAFD15100E0803804047E0A5431 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912B443ACA9786C7F049E895B407D5A /* GoogleCloudDestination.swift */; };
+		B4C01B93DF6C1D6F8912659D8F3F6C0E /* IOInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6205B3328817827765C01E14435379 /* IOInterface.swift */; };
+		B7AFD9314DC16AF034206E173EB9C2D0 /* CryptoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF076A1D30E623C1B7BEDC3350DD4A /* CryptoContainer.swift */; };
+		B8DD5449515E6DDB98B31698D86A6DD5 /* CryptoAEAD.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B423C4DF23E0DDF5249C264C62B24C /* CryptoAEAD.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B8EB749202A45A9EC633D857D8F12F8C /* NEUDPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8E04D6E1CAE8D9AE2AA310E593F43 /* NEUDPSocket.swift */; };
+		B914D9BD30E6D33BFF345E32DB5842EA /* ControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78D17EFAD3EB19900ED0840CA02592 /* ControlChannel.swift */; };
+		BC5E66E337E2E05992DEB8119F03F164 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866A36B1428D6C35FA2AD3F45002FFA /* Session.swift */; };
+		C1D98B2FDA0C3DE601A9B7210C448B76 /* ZeroingData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F319F6A6E3D6D818071F829B7EED8B3 /* ZeroingData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C27308E76A83C09A031A3F33AC0913CA /* IPv4Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1419199F47C7A0533617408E3BD1C5 /* IPv4Settings.swift */; };
+		C3810313FC50FD8CD900552E82B946FB /* CryptoAEAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A798FD4281657968116A9272FAD009F /* CryptoAEAD.m */; };
+		C40974D2543F3847E03F639F50D02807 /* LZO.m in Sources */ = {isa = PBXBuildFile; fileRef = E938B9F5ADBF0DE1BEEC436AC5FF327D /* LZO.m */; };
+		C49342E8D0A85325C6B3EC3C1D9275AB /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C2481CCF92EE45265A9C19B9C21B5 /* Errors.swift */; };
+		C6DF38F1AE25453447E61167AA11E1B6 /* DNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 54128A1A76540BB5E65BE4D58F20FD25 /* DNS.m */; };
+		C9C942DA8D6461E2D8C86DCC6A749553 /* EncryptionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE0C6481D59D0BC2351FD7300B8DDC /* EncryptionBridge.swift */; };
+		CA3B316C7BE1718515069F6C2421741B /* DataPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F6D5D9C475CD0877AAC85BC1E7F2DC /* DataPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0A9C1398EAE48B65540AB172E7725A8 /* LZO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040FC3722690D82D8E4E1A56BA8A34D /* LZO.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D890CC6BABF47E83B674297A809D6D1E /* PacketStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEA21CF2DE63E34A944E95AB2B1C3FD /* PacketStream.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DA294039655DA97AD319F9C30ADBBF08 /* MSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE9D9FC98EB6589E70974D32B88F2D /* MSS.m */; };
+		DBBDBD38D355E172AF7E4C202718F1D3 /* ControlChannelSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458A0D105C1EE4E50F1319A7996B677 /* ControlChannelSerializer.swift */; };
+		DD44C85C04734BD7A3232BDB966B7F82 /* ProtocolMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3A66DEE16061F1AFF350D1968D57D4 /* ProtocolMacros.swift */; };
+		DFFB172CE79F21F1E5F597ECC33D48DD /* OpenVPNError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A2D1F1E25B92BD346E333BF2BB32F /* OpenVPNError.swift */; };
+		E2C22A6DD29DF16E0095E5EAB166C6B6 /* LinkProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BBA60816DEFA2914EEAF7CC5D2C8C /* LinkProducer.swift */; };
+		E37912A056657E18FC98C058748C19A2 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909C41A55C26394AD2798DD2A3AB27B /* FileDestination.swift */; };
+		E3CF4DF7D0F7EAB8D8ED121A0919D9CB /* OpenVPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277FEE4F014AFE06C29B547EF6877DD /* OpenVPN.swift */; };
+		EAD56C4F76D1C09E8A493C54DC487C8B /* MemoryDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D28F011EBEE2D65013EE5B712F91D /* MemoryDestination.swift */; };
+		EBB91B9ABEB15A59522E30A2171A55EE /* RoutingTableEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFE6BD5AAE20E892404B272EBFD5B49 /* RoutingTableEntry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE71D6FB5991FA7BD3163703158B6AB2 /* DataPathCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE9B9B89665463A1FC45BD44E753513 /* DataPathCrypto.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0B30202D26C8F14F278099A13658FDE /* Pods-DiOSAPP-DiOSAPP_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB210F358682062D86B62A14D723C831 /* Pods-DiOSAPP-DiOSAPP_Extension-dummy.m */; };
+		F2B226C7725384C0E31F10916BE129CB /* Pods-DiOSAPPTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB852CA7F6039069B80E70779696A90 /* Pods-DiOSAPPTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4101D5017AB90E4DA05A7D1A15F7DA9 /* CompressionAlgorithmNative.h in Headers */ = {isa = PBXBuildFile; fileRef = F92899DC86C702C253BD6DF18F3AD882 /* CompressionAlgorithmNative.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4A2BDE4B8EAA00F87CEBCA80DDA64C8 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1232296DB251B77C4B7EC63B29BCA8 /* route.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F98585731EF17261F4AD4BB281B07C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8053D7B2299C21D668C90598222234 /* Foundation.framework */; };
+		FE7614B4363530998D0E2E991D91C47D /* CompressionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D5D343A3B2A4C7EE8A70D912072B5 /* CompressionAlgorithm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F3800597C32A40A3D9D03D6B4D52E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
+			remoteInfo = SwiftyBeaver;
+		};
+		0370420EC12D44EA2AA8B1762EA94A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24B7CB5F930ED9474F1ED8C3B3B34AB;
+			remoteInfo = "Pods-DiOSAPP";
+		};
+		0BA3BD00CD33E20EDE19281B37AD5734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
+			remoteInfo = SwiftyBeaver;
+		};
+		517A6BDE128135D3D5FF135F47205634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D19EB7B01FE882EA71F4F8F7573D668;
+			remoteInfo = TunnelKit;
+		};
+		554E5768B67269E4237D81103B90F539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF;
+			remoteInfo = "OpenSSL-Apple";
+		};
+		70C20CD271D8B1E4D931FD264E793526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF;
+			remoteInfo = "OpenSSL-Apple";
+		};
+		B63035BFADA9D131668D07199CC702AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24B7CB5F930ED9474F1ED8C3B3B34AB;
+			remoteInfo = "Pods-DiOSAPP";
+		};
+		B8136B5E9D3F217AC4C6CE05452A1F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
+			remoteInfo = SwiftyBeaver;
+		};
+		C35C5805682995A5638A9CF5189724CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D19EB7B01FE882EA71F4F8F7573D668;
+			remoteInfo = TunnelKit;
+		};
+		DED226FF4A8E7E5C7A2CD37EB682D0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF;
+			remoteInfo = "OpenSSL-Apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0277FEE4F014AFE06C29B547EF6877DD /* OpenVPN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenVPN.swift; path = TunnelKit/Sources/Protocols/OpenVPN/OpenVPN.swift; sourceTree = "<group>"; };
+		02E34A96006FC35DB3C93948E288C6D6 /* NEUDPLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NEUDPLink.swift; path = TunnelKit/Sources/Protocols/OpenVPN/AppExtension/NEUDPLink.swift; sourceTree = "<group>"; };
+		035279DAE9FB436ABEC2D3E4EB1908A4 /* Allocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Allocation.m; path = TunnelKit/Sources/Core/Allocation.m; sourceTree = "<group>"; };
+		046453FE564299B9B1129C069384326D /* Pods-DiOSAPPUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiOSAPPUITests-umbrella.h"; sourceTree = "<group>"; };
+		04D8EE4B4A9715A41828A88A39860701 /* Pods-DiOSAPPUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPPUITests-Info.plist"; sourceTree = "<group>"; };
+		0B59362BAC971FDEB37B3B02FAB58CDC /* Pods-DiOSAPP-DiOSAPP_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiOSAPP-DiOSAPP_Extension.modulemap"; sourceTree = "<group>"; };
+		0C1775046DF8644D37C3D16A243295BE /* DNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNS.h; path = TunnelKit/Sources/Core/DNS.h; sourceTree = "<group>"; };
+		0E8448F07D4B7DD6035E57CF523FB657 /* Pods_DiOSAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiOSAPPUITests.framework; path = "Pods-DiOSAPPUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1232296DB251B77C4B7EC63B29BCA8 /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = route.h; path = TunnelKit/Sources/Core/route.h; sourceTree = "<group>"; };
+		0F3C923B053D128F46F50097ACB6C2B5 /* Pods_DiOSAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiOSAPPTests.framework; path = "Pods-DiOSAPPTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166DF0DD9DBF905C92CC178B4B8FF0A3 /* ReplayProtector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReplayProtector.h; path = TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h; sourceTree = "<group>"; };
+		184F9B11E1E69C778EF3A2D9BFB2E6D8 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		1909C41A55C26394AD2798DD2A3AB27B /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
+		195122E432F2B2CCCA8E7919955BF224 /* CryptoBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CryptoBox.h; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h; sourceTree = "<group>"; };
+		1AAF764150472B04E661172D4A6DB3F7 /* Pods-DiOSAPPTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPPTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B3A66DEE16061F1AFF350D1968D57D4 /* ProtocolMacros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtocolMacros.swift; path = TunnelKit/Sources/Protocols/OpenVPN/ProtocolMacros.swift; sourceTree = "<group>"; };
+		1B6205B3328817827765C01E14435379 /* IOInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IOInterface.swift; path = TunnelKit/Sources/Core/IOInterface.swift; sourceTree = "<group>"; };
+		1CFF076A1D30E623C1B7BEDC3350DD4A /* CryptoContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoContainer.swift; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoContainer.swift; sourceTree = "<group>"; };
+		1E9D2F16A9E1DFF4256381FAF080FA54 /* Pods-DiOSAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB8E04D6E1CAE8D9AE2AA310E593F43 /* NEUDPSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NEUDPSocket.swift; path = TunnelKit/Sources/AppExtension/Transport/NEUDPSocket.swift; sourceTree = "<group>"; };
+		223630FBD82CBBE80D9A7197CCF22ABA /* Pods-DiOSAPP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiOSAPP-umbrella.h"; sourceTree = "<group>"; };
+		24171911DE2426A3AF4414623274FFEE /* Pods-DiOSAPP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPP-Info.plist"; sourceTree = "<group>"; };
+		25CE829A7F86724C5A699819D6004290 /* Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Proxy.swift; path = TunnelKit/Sources/Core/Proxy.swift; sourceTree = "<group>"; };
+		2A6E88FFAF5CA654EDCE75CA99BDC2B3 /* PacketMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PacketMacros.h; path = TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h; sourceTree = "<group>"; };
+		2A989FD79EB2FF23F02FCCC670BFD7A7 /* NWUDPSessionState+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NWUDPSessionState+Description.swift"; path = "TunnelKit/Sources/AppExtension/Transport/NWUDPSessionState+Description.swift"; sourceTree = "<group>"; };
+		2C6370F6C95E569D74FD6198BB5D68A1 /* SecureRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureRandom.swift; path = TunnelKit/Sources/Core/SecureRandom.swift; sourceTree = "<group>"; };
+		2D5EA05C088855C7D02DB14E91C5D0C2 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = frameworks/iPhone/openssl.framework; sourceTree = "<group>"; };
+		2DB852CA7F6039069B80E70779696A90 /* Pods-DiOSAPPTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiOSAPPTests-umbrella.h"; sourceTree = "<group>"; };
+		2EEBC2829A6EFD9BDA702809064D0654 /* Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F6D836F9F757A75DA3F20B8F1077E58 /* Pods-DiOSAPPUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiOSAPPUITests.modulemap"; sourceTree = "<group>"; };
+		2F7A4183DFB32156FFBC4667E38A75C6 /* TLSWrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLSWrap.swift; path = TunnelKit/Sources/Protocols/OpenVPN/TLSWrap.swift; sourceTree = "<group>"; };
+		2FC9746216686ED4B5513F1699EC0F45 /* CoreConfiguration+OpenVPN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreConfiguration+OpenVPN.swift"; path = "TunnelKit/Sources/Protocols/OpenVPN/CoreConfiguration+OpenVPN.swift"; sourceTree = "<group>"; };
+		312ECEFDDB0EBB968FE9858A9D754DB8 /* Errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Errors.h; path = TunnelKit/Sources/Core/Errors.h; sourceTree = "<group>"; };
+		32771B798DDAF0D0760015C367746254 /* NETunnelInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NETunnelInterface.swift; path = TunnelKit/Sources/AppExtension/Transport/NETunnelInterface.swift; sourceTree = "<group>"; };
+		32AB9403C338372EBA86623F8B43B74E /* IPv6Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPv6Settings.swift; path = TunnelKit/Sources/Core/IPv6Settings.swift; sourceTree = "<group>"; };
+		331F03AA0833BE89CED175D6E617BAF5 /* TunnelKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TunnelKit-dummy.m"; sourceTree = "<group>"; };
+		335C2481CCF92EE45265A9C19B9C21B5 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = TunnelKit/Sources/Core/Errors.swift; sourceTree = "<group>"; };
+		3398D7763D55DDA23E07F3AFA20FFDBE /* Pods_DiOSAPP_DiOSAPP_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiOSAPP_DiOSAPP_Extension.framework; path = "Pods-DiOSAPP-DiOSAPP_Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350D5D343A3B2A4C7EE8A70D912072B5 /* CompressionAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompressionAlgorithm.swift; path = TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithm.swift; sourceTree = "<group>"; };
+		36A4CEBBA1D8F127E772BAA39E6F71F7 /* CoreConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreConfiguration.swift; path = TunnelKit/Sources/Core/CoreConfiguration.swift; sourceTree = "<group>"; };
+		36FC653E8ACA674ED323B09AF2F33C57 /* Pods-DiOSAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36FD3A0770C59266D98DCAA570DC1E69 /* CryptoCBC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CryptoCBC.m; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoCBC.m; sourceTree = "<group>"; };
+		3A2A7FD059C7A9DFD963DBB69730A08F /* ConfigurationParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationParser.swift; path = TunnelKit/Sources/Protocols/OpenVPN/ConfigurationParser.swift; sourceTree = "<group>"; };
+		3A798FD4281657968116A9272FAD009F /* CryptoAEAD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CryptoAEAD.m; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoAEAD.m; sourceTree = "<group>"; };
+		3ABE0C6481D59D0BC2351FD7300B8DDC /* EncryptionBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncryptionBridge.swift; path = TunnelKit/Sources/Protocols/OpenVPN/EncryptionBridge.swift; sourceTree = "<group>"; };
+		3B2875C97CBBA541C5CBA1FAAB0CDA54 /* Errors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Errors.m; path = TunnelKit/Sources/Core/Errors.m; sourceTree = "<group>"; };
+		3BE9B9B89665463A1FC45BD44E753513 /* DataPathCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPathCrypto.h; path = TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h; sourceTree = "<group>"; };
+		3DDB19A5FC522F941138B05D1944995F /* Pods-DiOSAPPTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiOSAPPTests-dummy.m"; sourceTree = "<group>"; };
+		3E746FB8F2E6A84E4DEFF32CECE3627F /* TunnelKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TunnelKit.xcconfig; sourceTree = "<group>"; };
+		3EB1D00CF8C18A946E4030B516E81325 /* InterfaceObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterfaceObserver.swift; path = TunnelKit/Sources/AppExtension/InterfaceObserver.swift; sourceTree = "<group>"; };
+		4040FC3722690D82D8E4E1A56BA8A34D /* LZO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZO.h; path = TunnelKit/Sources/Core/LZO.h; sourceTree = "<group>"; };
+		408FAC8F1816A6BA51200448F628F0A9 /* Pods-DiOSAPPUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiOSAPPUITests-dummy.m"; sourceTree = "<group>"; };
+		41E7C76BD95FD6859A834439DF6CB288 /* CryptoCTR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CryptoCTR.m; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoCTR.m; sourceTree = "<group>"; };
+		42A67D62E344C50F4AC87BACDEC51F24 /* Pods-DiOSAPPUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiOSAPPUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4424C0D2F37873A87ECC13981A618D64 /* OpenVPNSession+PIA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OpenVPNSession+PIA.swift"; path = "TunnelKit/Sources/Protocols/OpenVPN/OpenVPNSession+PIA.swift"; sourceTree = "<group>"; };
+		4866A36B1428D6C35FA2AD3F45002FFA /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = TunnelKit/Sources/Core/Session.swift; sourceTree = "<group>"; };
+		4BE9A95F602A5C4665FF2B3E6ED903EA /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
+		4DC3A62006BF568507AB828D0C70022E /* TunnelInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TunnelInterface.swift; path = TunnelKit/Sources/Core/TunnelInterface.swift; sourceTree = "<group>"; };
+		4E114A5F41EAA07138C2187E727A2E41 /* Pods-DiOSAPPTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPPTests-Info.plist"; sourceTree = "<group>"; };
+		4F319F6A6E3D6D818071F829B7EED8B3 /* ZeroingData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZeroingData.h; path = TunnelKit/Sources/Core/ZeroingData.h; sourceTree = "<group>"; };
+		4F977190985B3C078893F5B80395B35D /* OpenVPNTunnelProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenVPNTunnelProvider.swift; path = TunnelKit/Sources/Protocols/OpenVPN/AppExtension/OpenVPNTunnelProvider.swift; sourceTree = "<group>"; };
+		500D9C95D71996A586563B5E889D020B /* TunnelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TunnelKit.framework; path = TunnelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50733E4B5ABEAA67E2DCA82F975E3404 /* RoutingTableEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RoutingTableEntry.m; path = TunnelKit/Sources/Core/RoutingTableEntry.m; sourceTree = "<group>"; };
+		50DD2AC658EC59AB4C4D3BCEB20C6D8E /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		53666166321B0C2B7FDCAF4B25EA2F6D /* Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h"; sourceTree = "<group>"; };
+		53A3E2DE699072B8ED38079BDFCDAC15 /* Pods-DiOSAPP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiOSAPP-frameworks.sh"; sourceTree = "<group>"; };
+		54128A1A76540BB5E65BE4D58F20FD25 /* DNS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNS.m; path = TunnelKit/Sources/Core/DNS.m; sourceTree = "<group>"; };
+		5449D85725C5B9DC89B427BC53EAE91F /* RoutingTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RoutingTable.m; path = TunnelKit/Sources/Core/RoutingTable.m; sourceTree = "<group>"; };
+		57AF8DB958C109D2DA3BF938C3BCF575 /* MSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSS.h; path = TunnelKit/Sources/Protocols/OpenVPN/MSS.h; sourceTree = "<group>"; };
+		58BC2505266678B80AE6FBD174B60A11 /* ControlPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControlPacket.h; path = TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h; sourceTree = "<group>"; };
+		5C81A9D4253F4D73ED8BF8DAE89C1218 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = TunnelKit/Sources/AppExtension/Keychain.swift; sourceTree = "<group>"; };
+		65201958C1EB5547B8F520077480E56E /* CryptoCTR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CryptoCTR.h; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoCTR.h; sourceTree = "<group>"; };
+		668275EC79FA0FA5879F340E884D8EDC /* Pods-DiOSAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67D65EDD6779AD5B4665679B3E4A7CBD /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		681F22E50B898B98411353CB263DC630 /* StaticKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StaticKey.swift; path = TunnelKit/Sources/Protocols/OpenVPN/StaticKey.swift; sourceTree = "<group>"; };
+		6912B443ACA9786C7F049E895B407D5A /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		6926DAA799888881FD82681DD3427571 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = TunnelKit/Sources/Protocols/OpenVPN/Configuration.swift; sourceTree = "<group>"; };
+		6ACAA015F14BF8B4BF0304340EBDFF66 /* OpenVPNTunnelProvider+Interaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OpenVPNTunnelProvider+Interaction.swift"; path = "TunnelKit/Sources/Protocols/OpenVPN/AppExtension/OpenVPNTunnelProvider+Interaction.swift"; sourceTree = "<group>"; };
+		6C24835DE446656A82E1EEA8783BCAE6 /* Pods-DiOSAPP-DiOSAPP_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPP-DiOSAPP_Extension-Info.plist"; sourceTree = "<group>"; };
+		742D7E394A310D95C18769B08B5434EE /* TLSBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLSBox.h; path = TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h; sourceTree = "<group>"; };
+		7759C40685F13D7AF01FC00A9143855D /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		79562698571023B8777DAAC98B8EF52C /* TunnelKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TunnelKit-prefix.pch"; sourceTree = "<group>"; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFE6BD5AAE20E892404B272EBFD5B49 /* RoutingTableEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RoutingTableEntry.h; path = TunnelKit/Sources/Core/RoutingTableEntry.h; sourceTree = "<group>"; };
+		7E3BBA60816DEFA2914EEAF7CC5D2C8C /* LinkProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkProducer.swift; path = TunnelKit/Sources/AppExtension/LinkProducer.swift; sourceTree = "<group>"; };
+		7E3C3A2C3C40EE2B58A7FA86DD78A573 /* Pods-DiOSAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EBE9D9FC98EB6589E70974D32B88F2D /* MSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSS.m; path = TunnelKit/Sources/Protocols/OpenVPN/MSS.m; sourceTree = "<group>"; };
+		7ED7DD477C57E9B92825967A417EDAD3 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		7F4454154E3A04244405D7241E26F212 /* CryptoMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CryptoMacros.h; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoMacros.h; sourceTree = "<group>"; };
+		8398437BB27A58B99878ADC15B92015E /* ConfigurationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationError.swift; path = TunnelKit/Sources/Core/ConfigurationError.swift; sourceTree = "<group>"; };
+		84B186F1A5BD508E3BC701FA7655A240 /* TunnelKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TunnelKit-umbrella.h"; sourceTree = "<group>"; };
+		876AE9AA97ABC326E07EAC11A70FE1BA /* OpenSSL-Apple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Apple.xcconfig"; sourceTree = "<group>"; };
+		89C852AFCA5E21CC9BC27023F81C27B6 /* LinkInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkInterface.swift; path = TunnelKit/Sources/Core/LinkInterface.swift; sourceTree = "<group>"; };
+		8BCF47A5EE1D652506C116F20EBD69CB /* Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C4584BB61D9D7E6C1955C6E6AC3EBA7 /* Pods-DiOSAPP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiOSAPP-dummy.m"; sourceTree = "<group>"; };
+		8E8BAF932EB4A04820C619BFE9BF4383 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		8EA15831864AEDB98209D7AEF6C4D460 /* SocketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketType.swift; path = TunnelKit/Sources/Core/SocketType.swift; sourceTree = "<group>"; };
+		901C213B08AA036AF07E8FD43271A301 /* Pods-DiOSAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPP.release.xcconfig"; sourceTree = "<group>"; };
+		91465407A0EA28E363FF41535E8C27BF /* Pods-DiOSAPP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiOSAPP-acknowledgements.markdown"; sourceTree = "<group>"; };
+		914785C4714DE8E8A3B0B9FA09D91654 /* SessionKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionKey.swift; path = TunnelKit/Sources/Protocols/OpenVPN/SessionKey.swift; sourceTree = "<group>"; };
+		92654696760B4E9B85ECAFF9A2DCA90E /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = TunnelKit/Sources/Core/Utils.swift; sourceTree = "<group>"; };
+		988A2F47255667065C252934EE1C2550 /* Pods-DiOSAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		9A78D17EFAD3EB19900ED0840CA02592 /* ControlChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlChannel.swift; path = TunnelKit/Sources/Protocols/OpenVPN/ControlChannel.swift; sourceTree = "<group>"; };
+		9BB8AFE68D1C176280FA715DCBF256D8 /* NETCPSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NETCPSocket.swift; path = TunnelKit/Sources/AppExtension/Transport/NETCPSocket.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9A057F9B53C8B2391997EFC0ACEE8D /* ReplayProtector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplayProtector.m; path = TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.m; sourceTree = "<group>"; };
+		A080E57FB635CA63AEF50AF451234418 /* TunnelKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TunnelKit.modulemap; sourceTree = "<group>"; };
+		A2C008F92C4300D1FDD3F5276300153A /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		A3D5A537EAF2FBF2ECEA198982A16C82 /* CryptoCBC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CryptoCBC.h; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoCBC.h; sourceTree = "<group>"; };
+		A458A0D105C1EE4E50F1319A7996B677 /* ControlChannelSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlChannelSerializer.swift; path = TunnelKit/Sources/Protocols/OpenVPN/ControlChannelSerializer.swift; sourceTree = "<group>"; };
+		A5437266EFE9AD7C70ECBCEBCC8784E2 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A644EF355ACBC059BED386E56FBC450C /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
+		A64B68F759FFBD187B963A9BB6FB19C6 /* Pods-DiOSAPPTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiOSAPPTests.modulemap"; sourceTree = "<group>"; };
+		AD12BCF0A5AA21B90980022AD35DF65C /* ZeroingData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZeroingData.m; path = TunnelKit/Sources/Core/ZeroingData.m; sourceTree = "<group>"; };
+		AF9B996E63E8E97560440859E5AFC32A /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		B0B015DB504429FE2DDBC82A7D3DE86C /* OpenVPNTunnelProvider+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OpenVPNTunnelProvider+Configuration.swift"; path = "TunnelKit/Sources/Protocols/OpenVPN/AppExtension/OpenVPNTunnelProvider+Configuration.swift"; sourceTree = "<group>"; };
+		B396B096F2E20D0380A52D7D6C9A7E12 /* NSRegularExpression+Shortcuts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Shortcuts.swift"; path = "TunnelKit/Sources/Core/NSRegularExpression+Shortcuts.swift"; sourceTree = "<group>"; };
+		B6106A46F250594DA50667D967839723 /* Pods-DiOSAPPTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiOSAPPTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB1419199F47C7A0533617408E3BD1C5 /* IPv4Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPv4Settings.swift; path = TunnelKit/Sources/Core/IPv4Settings.swift; sourceTree = "<group>"; };
+		BB8053D7B2299C21D668C90598222234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC19758C29F7EB51021DF0A06F212C11 /* Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crypto.h; path = TunnelKit/Sources/Protocols/OpenVPN/Crypto.h; sourceTree = "<group>"; };
+		BF0AC08A7E66AA84D418A03F9979D657 /* GenericSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericSocket.swift; path = TunnelKit/Sources/AppExtension/GenericSocket.swift; sourceTree = "<group>"; };
+		BF3C763A3FC857C33390E1E372BEC76B /* Pods-DiOSAPP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPP-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF4568C3A686B1E1A7DBA3E9BAA70553 /* PushReply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushReply.swift; path = TunnelKit/Sources/Protocols/OpenVPN/PushReply.swift; sourceTree = "<group>"; };
+		C06A2D1F1E25B92BD346E333BF2BB32F /* OpenVPNError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenVPNError.swift; path = TunnelKit/Sources/Protocols/OpenVPN/OpenVPNError.swift; sourceTree = "<group>"; };
+		C1038F7AE0A5C7BEFB9DDBAD50BD0FBB /* ConnectionStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectionStrategy.swift; path = TunnelKit/Sources/Protocols/OpenVPN/AppExtension/ConnectionStrategy.swift; sourceTree = "<group>"; };
+		C2F6D5D9C475CD0877AAC85BC1E7F2DC /* DataPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPath.h; path = TunnelKit/Sources/Protocols/OpenVPN/DataPath.h; sourceTree = "<group>"; };
+		C6675C72B7BEBD9D7F1E15D7EC11BFE2 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig"; sourceTree = "<group>"; };
+		C6BD0255741158384073D4D6F02AACA6 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		C772AC7838AFB6D7B2F46181F0F3A53B /* Data+Manipulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Manipulation.swift"; path = "TunnelKit/Sources/Core/Data+Manipulation.swift"; sourceTree = "<group>"; };
+		C7C296DB74D6F62A1EE6BCD167411866 /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D2614370EA26607A627AEAD5049003 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		CA540D18A91571732B9453AF97517134 /* Pods-DiOSAPP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiOSAPP.modulemap"; sourceTree = "<group>"; };
+		CB2BA858A0F25419EC6FEC7FEEB9B24A /* PacketStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PacketStream.m; path = TunnelKit/Sources/Protocols/OpenVPN/PacketStream.m; sourceTree = "<group>"; };
+		CCF645CF8C92B40E754EF75921851185 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = TunnelKit/Sources/Protocols/OpenVPN/Authenticator.swift; sourceTree = "<group>"; };
+		CEEA21CF2DE63E34A944E95AB2B1C3FD /* PacketStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PacketStream.h; path = TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h; sourceTree = "<group>"; };
+		D473FF8F990B79D389BC51D386FAD80F /* Pods_DiOSAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiOSAPP.framework; path = "Pods-DiOSAPP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50E2F7E41AD9103264B41F2306284DF /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		D530B82E675315EFAF30C9EA0FD28B13 /* CryptoBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CryptoBox.m; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.m; sourceTree = "<group>"; };
+		D578C312F185543CF847DF07F5AA7DC3 /* DNSResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DNSResolver.swift; path = TunnelKit/Sources/Core/DNSResolver.swift; sourceTree = "<group>"; };
+		D64DB4E43C460ED51CDBA58ADBDD8635 /* OpenVPNSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenVPNSession.swift; path = TunnelKit/Sources/Protocols/OpenVPN/OpenVPNSession.swift; sourceTree = "<group>"; };
+		D98266EAEE175002DB6F2D9D3D62626C /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		DB70AFE95FA62DAAD460CF85197B6720 /* NETCPLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NETCPLink.swift; path = TunnelKit/Sources/Protocols/OpenVPN/AppExtension/NETCPLink.swift; sourceTree = "<group>"; };
+		E6A6A378E5B345BE88D796AAA693D10E /* BidirectionalState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BidirectionalState.swift; path = TunnelKit/Sources/Core/BidirectionalState.swift; sourceTree = "<group>"; };
+		E84A86DA28F5B96CE6CDF74DAFA36498 /* CompressionFramingNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompressionFramingNative.h; path = TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h; sourceTree = "<group>"; };
+		E938B9F5ADBF0DE1BEEC436AC5FF327D /* LZO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZO.m; path = TunnelKit/Sources/Core/LZO.m; sourceTree = "<group>"; };
+		E99F1EB4C8092DCDC94184B82584D3B8 /* Packet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Packet.swift; path = TunnelKit/Sources/Protocols/OpenVPN/Packet.swift; sourceTree = "<group>"; };
+		E9B468451A8E0B118B73F9B8686AAD8C /* CompressionFraming.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompressionFraming.swift; path = TunnelKit/Sources/Protocols/OpenVPN/CompressionFraming.swift; sourceTree = "<group>"; };
+		EDB1AB66575389C9291B6E276BC0E7BC /* RoutingTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RoutingTable.h; path = TunnelKit/Sources/Core/RoutingTable.h; sourceTree = "<group>"; };
+		EFC1519E0AED2BEAD27FF91A49E03486 /* EndpointProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointProtocol.swift; path = TunnelKit/Sources/Core/EndpointProtocol.swift; sourceTree = "<group>"; };
+		EFC4B68F4DB49CE7E4BA665037396BB0 /* Allocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Allocation.h; path = TunnelKit/Sources/Core/Allocation.h; sourceTree = "<group>"; };
+		EFF77091A847F275F992E89C82732301 /* DataPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataPath.m; path = TunnelKit/Sources/Protocols/OpenVPN/DataPath.m; sourceTree = "<group>"; };
+		F04401FD76AD45BEA87E0E9E693BF09C /* TLSBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLSBox.m; path = TunnelKit/Sources/Protocols/OpenVPN/TLSBox.m; sourceTree = "<group>"; };
+		F08D28F011EBEE2D65013EE5B712F91D /* MemoryDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryDestination.swift; path = TunnelKit/Sources/AppExtension/MemoryDestination.swift; sourceTree = "<group>"; };
+		F27F38F72D87818A0554ADF5D255D2CD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		F36E01390D41C5EF078D34FF712A2BAE /* ZeroingData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroingData.swift; path = TunnelKit/Sources/Core/ZeroingData.swift; sourceTree = "<group>"; };
+		F5A7700494C1909CAF0DE0C3595BB903 /* ControlPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ControlPacket.m; path = TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.m; sourceTree = "<group>"; };
+		F6B423C4DF23E0DDF5249C264C62B24C /* CryptoAEAD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CryptoAEAD.h; path = TunnelKit/Sources/Protocols/OpenVPN/CryptoAEAD.h; sourceTree = "<group>"; };
+		F92899DC86C702C253BD6DF18F3AD882 /* CompressionAlgorithmNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompressionAlgorithmNative.h; path = TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h; sourceTree = "<group>"; };
+		F999B27E241508F4EDA74E28CE9E30BD /* Pods-DiOSAPPUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiOSAPPUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB135C1EB096154ED9DA05FF0C014C4C /* TunnelKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TunnelKit-Info.plist"; sourceTree = "<group>"; };
+		FB210F358682062D86B62A14D723C831 /* Pods-DiOSAPP-DiOSAPP_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiOSAPP-DiOSAPP_Extension-dummy.m"; sourceTree = "<group>"; };
+		FCB4C0A57C9AD6D275FF848175CBBBC6 /* NWTCPConnectionState+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NWTCPConnectionState+Description.swift"; path = "TunnelKit/Sources/AppExtension/Transport/NWTCPConnectionState+Description.swift"; sourceTree = "<group>"; };
+		FEAF38AE547022E07EA0EABB55F699F7 /* PacketMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PacketMacros.m; path = TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A65D2A87A2A718136F5534398BBB2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98585731EF17261F4AD4BB281B07C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614E511A6AA91E82C517CF86CB681A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77328CF913F80B94D27F45F7C9275EF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC2AB5294371759DDF05647FA5FE96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D01FB6840244F143F8559159170D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4C9FFA780E2CBBAAFB414A7BFE6F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3229D6A15960D024E6F38265097717A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D18D578543C5FAC942F7104B45E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C137C12B02A16B703C890C4DB151C27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D02BD9AAD5D684F906E41A3E1FB407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900347FE2775587285502E792518D0FA /* Foundation.framework in Frameworks */,
+				0FA970C08E03E0AD6AFC5A3ED8BFB75A /* NetworkExtension.framework in Frameworks */,
+				5E88DA0FE25935D062C393F17B377E26 /* SwiftyBeaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC44B662D0148499077019C6744126C /* TunnelKit */ = {
+			isa = PBXGroup;
+			children = (
+				76D24AD3068A8A8712DE98B9EC564E6D /* AppExtension */,
+				E0A25D466077C19067D77250D441A885 /* Core */,
+				94527BA73C2D2C49CBD6BF760DFF6440 /* Protocols */,
+				A327FDABF9454497A48CC18B395D9A2F /* Support Files */,
+			);
+			name = TunnelKit;
+			path = TunnelKit;
+			sourceTree = "<group>";
+		};
+		333B04319A12FDD17EA07F12B3766B36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				876AE9AA97ABC326E07EAC11A70FE1BA /* OpenSSL-Apple.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Apple";
+			sourceTree = "<group>";
+		};
+		41BB3351928FD877B3C3C5290E5CB9D8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB8053D7B2299C21D668C90598222234 /* Foundation.framework */,
+				D50E2F7E41AD9103264B41F2306284DF /* NetworkExtension.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A88B8674EA69655A8A072BD738A93E4 /* OpenVPN */ = {
+			isa = PBXGroup;
+			children = (
+				CCF645CF8C92B40E754EF75921851185 /* Authenticator.swift */,
+				350D5D343A3B2A4C7EE8A70D912072B5 /* CompressionAlgorithm.swift */,
+				F92899DC86C702C253BD6DF18F3AD882 /* CompressionAlgorithmNative.h */,
+				E9B468451A8E0B118B73F9B8686AAD8C /* CompressionFraming.swift */,
+				E84A86DA28F5B96CE6CDF74DAFA36498 /* CompressionFramingNative.h */,
+				6926DAA799888881FD82681DD3427571 /* Configuration.swift */,
+				3A2A7FD059C7A9DFD963DBB69730A08F /* ConfigurationParser.swift */,
+				C1038F7AE0A5C7BEFB9DDBAD50BD0FBB /* ConnectionStrategy.swift */,
+				9A78D17EFAD3EB19900ED0840CA02592 /* ControlChannel.swift */,
+				A458A0D105C1EE4E50F1319A7996B677 /* ControlChannelSerializer.swift */,
+				58BC2505266678B80AE6FBD174B60A11 /* ControlPacket.h */,
+				F5A7700494C1909CAF0DE0C3595BB903 /* ControlPacket.m */,
+				2FC9746216686ED4B5513F1699EC0F45 /* CoreConfiguration+OpenVPN.swift */,
+				BC19758C29F7EB51021DF0A06F212C11 /* Crypto.h */,
+				F6B423C4DF23E0DDF5249C264C62B24C /* CryptoAEAD.h */,
+				3A798FD4281657968116A9272FAD009F /* CryptoAEAD.m */,
+				195122E432F2B2CCCA8E7919955BF224 /* CryptoBox.h */,
+				D530B82E675315EFAF30C9EA0FD28B13 /* CryptoBox.m */,
+				A3D5A537EAF2FBF2ECEA198982A16C82 /* CryptoCBC.h */,
+				36FD3A0770C59266D98DCAA570DC1E69 /* CryptoCBC.m */,
+				1CFF076A1D30E623C1B7BEDC3350DD4A /* CryptoContainer.swift */,
+				65201958C1EB5547B8F520077480E56E /* CryptoCTR.h */,
+				41E7C76BD95FD6859A834439DF6CB288 /* CryptoCTR.m */,
+				7F4454154E3A04244405D7241E26F212 /* CryptoMacros.h */,
+				C2F6D5D9C475CD0877AAC85BC1E7F2DC /* DataPath.h */,
+				EFF77091A847F275F992E89C82732301 /* DataPath.m */,
+				3BE9B9B89665463A1FC45BD44E753513 /* DataPathCrypto.h */,
+				3ABE0C6481D59D0BC2351FD7300B8DDC /* EncryptionBridge.swift */,
+				57AF8DB958C109D2DA3BF938C3BCF575 /* MSS.h */,
+				7EBE9D9FC98EB6589E70974D32B88F2D /* MSS.m */,
+				DB70AFE95FA62DAAD460CF85197B6720 /* NETCPLink.swift */,
+				02E34A96006FC35DB3C93948E288C6D6 /* NEUDPLink.swift */,
+				0277FEE4F014AFE06C29B547EF6877DD /* OpenVPN.swift */,
+				C06A2D1F1E25B92BD346E333BF2BB32F /* OpenVPNError.swift */,
+				D64DB4E43C460ED51CDBA58ADBDD8635 /* OpenVPNSession.swift */,
+				4424C0D2F37873A87ECC13981A618D64 /* OpenVPNSession+PIA.swift */,
+				4F977190985B3C078893F5B80395B35D /* OpenVPNTunnelProvider.swift */,
+				B0B015DB504429FE2DDBC82A7D3DE86C /* OpenVPNTunnelProvider+Configuration.swift */,
+				6ACAA015F14BF8B4BF0304340EBDFF66 /* OpenVPNTunnelProvider+Interaction.swift */,
+				E99F1EB4C8092DCDC94184B82584D3B8 /* Packet.swift */,
+				2A6E88FFAF5CA654EDCE75CA99BDC2B3 /* PacketMacros.h */,
+				FEAF38AE547022E07EA0EABB55F699F7 /* PacketMacros.m */,
+				CEEA21CF2DE63E34A944E95AB2B1C3FD /* PacketStream.h */,
+				CB2BA858A0F25419EC6FEC7FEEB9B24A /* PacketStream.m */,
+				1B3A66DEE16061F1AFF350D1968D57D4 /* ProtocolMacros.swift */,
+				BF4568C3A686B1E1A7DBA3E9BAA70553 /* PushReply.swift */,
+				166DF0DD9DBF905C92CC178B4B8FF0A3 /* ReplayProtector.h */,
+				9E9A057F9B53C8B2391997EFC0ACEE8D /* ReplayProtector.m */,
+				914785C4714DE8E8A3B0B9FA09D91654 /* SessionKey.swift */,
+				681F22E50B898B98411353CB263DC630 /* StaticKey.swift */,
+				742D7E394A310D95C18769B08B5434EE /* TLSBox.h */,
+				F04401FD76AD45BEA87E0E9E693BF09C /* TLSBox.m */,
+				2F7A4183DFB32156FFBC4667E38A75C6 /* TLSWrap.swift */,
+			);
+			name = OpenVPN;
+			sourceTree = "<group>";
+		};
+		6014296B89A68928BD963F5FAA0AF6EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD8303D1375F1A998C366D27DA5CC298 /* OpenSSL-Apple */,
+				67EC62C34D7A43A6C82EC5DA297C60DC /* SwiftyBeaver */,
+				1AC44B662D0148499077019C6744126C /* TunnelKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67EC62C34D7A43A6C82EC5DA297C60DC /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				A644EF355ACBC059BED386E56FBC450C /* AES256CBC.swift */,
+				7ED7DD477C57E9B92825967A417EDAD3 /* Base64.swift */,
+				D98266EAEE175002DB6F2D9D3D62626C /* BaseDestination.swift */,
+				AF9B996E63E8E97560440859E5AFC32A /* ConsoleDestination.swift */,
+				F27F38F72D87818A0554ADF5D255D2CD /* Extensions.swift */,
+				1909C41A55C26394AD2798DD2A3AB27B /* FileDestination.swift */,
+				7759C40685F13D7AF01FC00A9143855D /* Filter.swift */,
+				6912B443ACA9786C7F049E895B407D5A /* GoogleCloudDestination.swift */,
+				C7D2614370EA26607A627AEAD5049003 /* SBPlatformDestination.swift */,
+				184F9B11E1E69C778EF3A2D9BFB2E6D8 /* SwiftyBeaver.swift */,
+				C35D82165B99F281373FAF57F3D1D36E /* Support Files */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		738499250CF4C290FCD2EDEC35FC9EDA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF078FC442BEE04B940E7F4AF4BCFD54 /* Pods-DiOSAPP */,
+				D63C72A1ECE46F04798CC696B284D28F /* Pods-DiOSAPP-DiOSAPP_Extension */,
+				9A9113A52D461C85532538BBF13370AB /* Pods-DiOSAPPTests */,
+				EE1EEFACC383618177333B70CD5AE7AB /* Pods-DiOSAPPUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76D24AD3068A8A8712DE98B9EC564E6D /* AppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BF0AC08A7E66AA84D418A03F9979D657 /* GenericSocket.swift */,
+				3EB1D00CF8C18A946E4030B516E81325 /* InterfaceObserver.swift */,
+				5C81A9D4253F4D73ED8BF8DAE89C1218 /* Keychain.swift */,
+				7E3BBA60816DEFA2914EEAF7CC5D2C8C /* LinkProducer.swift */,
+				F08D28F011EBEE2D65013EE5B712F91D /* MemoryDestination.swift */,
+				9BB8AFE68D1C176280FA715DCBF256D8 /* NETCPSocket.swift */,
+				32771B798DDAF0D0760015C367746254 /* NETunnelInterface.swift */,
+				1FB8E04D6E1CAE8D9AE2AA310E593F43 /* NEUDPSocket.swift */,
+				FCB4C0A57C9AD6D275FF848175CBBBC6 /* NWTCPConnectionState+Description.swift */,
+				2A989FD79EB2FF23F02FCCC670BFD7A7 /* NWUDPSessionState+Description.swift */,
+			);
+			name = AppExtension;
+			sourceTree = "<group>";
+		};
+		8F5FEB08A0F24E51FAB53A0C9150F676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D473FF8F990B79D389BC51D386FAD80F /* Pods_DiOSAPP.framework */,
+				3398D7763D55DDA23E07F3AFA20FFDBE /* Pods_DiOSAPP_DiOSAPP_Extension.framework */,
+				0F3C923B053D128F46F50097ACB6C2B5 /* Pods_DiOSAPPTests.framework */,
+				0E8448F07D4B7DD6035E57CF523FB657 /* Pods_DiOSAPPUITests.framework */,
+				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */,
+				500D9C95D71996A586563B5E889D020B /* TunnelKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9179A4E33B92231631EAFC5CFD90A6C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5437266EFE9AD7C70ECBCEBCC8784E2 /* SwiftyBeaver.framework */,
+				41BB3351928FD877B3C3C5290E5CB9D8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94527BA73C2D2C49CBD6BF760DFF6440 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4A88B8674EA69655A8A072BD738A93E4 /* OpenVPN */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		9A9113A52D461C85532538BBF13370AB /* Pods-DiOSAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A64B68F759FFBD187B963A9BB6FB19C6 /* Pods-DiOSAPPTests.modulemap */,
+				B6106A46F250594DA50667D967839723 /* Pods-DiOSAPPTests-acknowledgements.markdown */,
+				1AAF764150472B04E661172D4A6DB3F7 /* Pods-DiOSAPPTests-acknowledgements.plist */,
+				3DDB19A5FC522F941138B05D1944995F /* Pods-DiOSAPPTests-dummy.m */,
+				4E114A5F41EAA07138C2187E727A2E41 /* Pods-DiOSAPPTests-Info.plist */,
+				2DB852CA7F6039069B80E70779696A90 /* Pods-DiOSAPPTests-umbrella.h */,
+				668275EC79FA0FA5879F340E884D8EDC /* Pods-DiOSAPPTests.debug.xcconfig */,
+				7E3C3A2C3C40EE2B58A7FA86DD78A573 /* Pods-DiOSAPPTests.release.xcconfig */,
+			);
+			name = "Pods-DiOSAPPTests";
+			path = "Target Support Files/Pods-DiOSAPPTests";
+			sourceTree = "<group>";
+		};
+		A15821925230548D204906C91A170C52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5EA05C088855C7D02DB14E91C5D0C2 /* openssl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A327FDABF9454497A48CC18B395D9A2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A080E57FB635CA63AEF50AF451234418 /* TunnelKit.modulemap */,
+				3E746FB8F2E6A84E4DEFF32CECE3627F /* TunnelKit.xcconfig */,
+				331F03AA0833BE89CED175D6E617BAF5 /* TunnelKit-dummy.m */,
+				FB135C1EB096154ED9DA05FF0C014C4C /* TunnelKit-Info.plist */,
+				79562698571023B8777DAAC98B8EF52C /* TunnelKit-prefix.pch */,
+				84B186F1A5BD508E3BC701FA7655A240 /* TunnelKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TunnelKit";
+			sourceTree = "<group>";
+		};
+		AD8303D1375F1A998C366D27DA5CC298 /* OpenSSL-Apple */ = {
+			isa = PBXGroup;
+			children = (
+				A15821925230548D204906C91A170C52 /* Frameworks */,
+				333B04319A12FDD17EA07F12B3766B36 /* Support Files */,
+			);
+			name = "OpenSSL-Apple";
+			path = "OpenSSL-Apple";
+			sourceTree = "<group>";
+		};
+		AF078FC442BEE04B940E7F4AF4BCFD54 /* Pods-DiOSAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CA540D18A91571732B9453AF97517134 /* Pods-DiOSAPP.modulemap */,
+				91465407A0EA28E363FF41535E8C27BF /* Pods-DiOSAPP-acknowledgements.markdown */,
+				BF3C763A3FC857C33390E1E372BEC76B /* Pods-DiOSAPP-acknowledgements.plist */,
+				8C4584BB61D9D7E6C1955C6E6AC3EBA7 /* Pods-DiOSAPP-dummy.m */,
+				53A3E2DE699072B8ED38079BDFCDAC15 /* Pods-DiOSAPP-frameworks.sh */,
+				24171911DE2426A3AF4414623274FFEE /* Pods-DiOSAPP-Info.plist */,
+				223630FBD82CBBE80D9A7197CCF22ABA /* Pods-DiOSAPP-umbrella.h */,
+				988A2F47255667065C252934EE1C2550 /* Pods-DiOSAPP.debug.xcconfig */,
+				901C213B08AA036AF07E8FD43271A301 /* Pods-DiOSAPP.release.xcconfig */,
+			);
+			name = "Pods-DiOSAPP";
+			path = "Target Support Files/Pods-DiOSAPP";
+			sourceTree = "<group>";
+		};
+		C35D82165B99F281373FAF57F3D1D36E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C008F92C4300D1FDD3F5276300153A /* SwiftyBeaver.modulemap */,
+				C6BD0255741158384073D4D6F02AACA6 /* SwiftyBeaver.xcconfig */,
+				50DD2AC658EC59AB4C4D3BCEB20C6D8E /* SwiftyBeaver-dummy.m */,
+				4BE9A95F602A5C4665FF2B3E6ED903EA /* SwiftyBeaver-Info.plist */,
+				67D65EDD6779AD5B4665679B3E4A7CBD /* SwiftyBeaver-prefix.pch */,
+				8E8BAF932EB4A04820C619BFE9BF4383 /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9179A4E33B92231631EAFC5CFD90A6C6 /* Frameworks */,
+				6014296B89A68928BD963F5FAA0AF6EA /* Pods */,
+				8F5FEB08A0F24E51FAB53A0C9150F676 /* Products */,
+				738499250CF4C290FCD2EDEC35FC9EDA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D63C72A1ECE46F04798CC696B284D28F /* Pods-DiOSAPP-DiOSAPP_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B59362BAC971FDEB37B3B02FAB58CDC /* Pods-DiOSAPP-DiOSAPP_Extension.modulemap */,
+				8BCF47A5EE1D652506C116F20EBD69CB /* Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.markdown */,
+				2EEBC2829A6EFD9BDA702809064D0654 /* Pods-DiOSAPP-DiOSAPP_Extension-acknowledgements.plist */,
+				FB210F358682062D86B62A14D723C831 /* Pods-DiOSAPP-DiOSAPP_Extension-dummy.m */,
+				6C24835DE446656A82E1EEA8783BCAE6 /* Pods-DiOSAPP-DiOSAPP_Extension-Info.plist */,
+				53666166321B0C2B7FDCAF4B25EA2F6D /* Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h */,
+				C7C296DB74D6F62A1EE6BCD167411866 /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */,
+				C6675C72B7BEBD9D7F1E15D7EC11BFE2 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */,
+			);
+			name = "Pods-DiOSAPP-DiOSAPP_Extension";
+			path = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension";
+			sourceTree = "<group>";
+		};
+		E0A25D466077C19067D77250D441A885 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EFC4B68F4DB49CE7E4BA665037396BB0 /* Allocation.h */,
+				035279DAE9FB436ABEC2D3E4EB1908A4 /* Allocation.m */,
+				E6A6A378E5B345BE88D796AAA693D10E /* BidirectionalState.swift */,
+				8398437BB27A58B99878ADC15B92015E /* ConfigurationError.swift */,
+				36A4CEBBA1D8F127E772BAA39E6F71F7 /* CoreConfiguration.swift */,
+				C772AC7838AFB6D7B2F46181F0F3A53B /* Data+Manipulation.swift */,
+				0C1775046DF8644D37C3D16A243295BE /* DNS.h */,
+				54128A1A76540BB5E65BE4D58F20FD25 /* DNS.m */,
+				D578C312F185543CF847DF07F5AA7DC3 /* DNSResolver.swift */,
+				EFC1519E0AED2BEAD27FF91A49E03486 /* EndpointProtocol.swift */,
+				312ECEFDDB0EBB968FE9858A9D754DB8 /* Errors.h */,
+				3B2875C97CBBA541C5CBA1FAAB0CDA54 /* Errors.m */,
+				335C2481CCF92EE45265A9C19B9C21B5 /* Errors.swift */,
+				1B6205B3328817827765C01E14435379 /* IOInterface.swift */,
+				BB1419199F47C7A0533617408E3BD1C5 /* IPv4Settings.swift */,
+				32AB9403C338372EBA86623F8B43B74E /* IPv6Settings.swift */,
+				89C852AFCA5E21CC9BC27023F81C27B6 /* LinkInterface.swift */,
+				4040FC3722690D82D8E4E1A56BA8A34D /* LZO.h */,
+				E938B9F5ADBF0DE1BEEC436AC5FF327D /* LZO.m */,
+				B396B096F2E20D0380A52D7D6C9A7E12 /* NSRegularExpression+Shortcuts.swift */,
+				25CE829A7F86724C5A699819D6004290 /* Proxy.swift */,
+				0F1232296DB251B77C4B7EC63B29BCA8 /* route.h */,
+				EDB1AB66575389C9291B6E276BC0E7BC /* RoutingTable.h */,
+				5449D85725C5B9DC89B427BC53EAE91F /* RoutingTable.m */,
+				7CFE6BD5AAE20E892404B272EBFD5B49 /* RoutingTableEntry.h */,
+				50733E4B5ABEAA67E2DCA82F975E3404 /* RoutingTableEntry.m */,
+				2C6370F6C95E569D74FD6198BB5D68A1 /* SecureRandom.swift */,
+				4866A36B1428D6C35FA2AD3F45002FFA /* Session.swift */,
+				8EA15831864AEDB98209D7AEF6C4D460 /* SocketType.swift */,
+				4DC3A62006BF568507AB828D0C70022E /* TunnelInterface.swift */,
+				92654696760B4E9B85ECAFF9A2DCA90E /* Utils.swift */,
+				4F319F6A6E3D6D818071F829B7EED8B3 /* ZeroingData.h */,
+				AD12BCF0A5AA21B90980022AD35DF65C /* ZeroingData.m */,
+				F36E01390D41C5EF078D34FF712A2BAE /* ZeroingData.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EE1EEFACC383618177333B70CD5AE7AB /* Pods-DiOSAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D836F9F757A75DA3F20B8F1077E58 /* Pods-DiOSAPPUITests.modulemap */,
+				42A67D62E344C50F4AC87BACDEC51F24 /* Pods-DiOSAPPUITests-acknowledgements.markdown */,
+				F999B27E241508F4EDA74E28CE9E30BD /* Pods-DiOSAPPUITests-acknowledgements.plist */,
+				408FAC8F1816A6BA51200448F628F0A9 /* Pods-DiOSAPPUITests-dummy.m */,
+				04D8EE4B4A9715A41828A88A39860701 /* Pods-DiOSAPPUITests-Info.plist */,
+				046453FE564299B9B1129C069384326D /* Pods-DiOSAPPUITests-umbrella.h */,
+				36FC653E8ACA674ED323B09AF2F33C57 /* Pods-DiOSAPPUITests.debug.xcconfig */,
+				1E9D2F16A9E1DFF4256381FAF080FA54 /* Pods-DiOSAPPUITests.release.xcconfig */,
+			);
+			name = "Pods-DiOSAPPUITests";
+			path = "Target Support Files/Pods-DiOSAPPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		021FE0E78FBA93485336C1B7631CCC7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407C7B87EB630480CBA6FB1ED08D9DE /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3EB42C0CBB9831FA0129605235B377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1333BCCC13CC58034E9C315359FD25 /* Allocation.h in Headers */,
+				F4101D5017AB90E4DA05A7D1A15F7DA9 /* CompressionAlgorithmNative.h in Headers */,
+				8AB7253560FB9A736392F853DEFD60ED /* CompressionFramingNative.h in Headers */,
+				9A6496A4D8696A15B20C8A1E2634E703 /* ControlPacket.h in Headers */,
+				1A3CBAEC81A5E25575EF5248350A22E6 /* Crypto.h in Headers */,
+				B8DD5449515E6DDB98B31698D86A6DD5 /* CryptoAEAD.h in Headers */,
+				A422092CE9C6D24ADDC56D30CE8B65EB /* CryptoBox.h in Headers */,
+				742FC3B0260E87421895F8E725668919 /* CryptoCBC.h in Headers */,
+				9D3D2E2F29CBF0BF587A9D4E0B492228 /* CryptoCTR.h in Headers */,
+				9B37523D5C9361BF42C52456F82DEA95 /* CryptoMacros.h in Headers */,
+				CA3B316C7BE1718515069F6C2421741B /* DataPath.h in Headers */,
+				EE71D6FB5991FA7BD3163703158B6AB2 /* DataPathCrypto.h in Headers */,
+				224178D3026921A81BFE7F886315C96B /* DNS.h in Headers */,
+				7B38D7210E80904EB36C7C28AE3A0C30 /* Errors.h in Headers */,
+				D0A9C1398EAE48B65540AB172E7725A8 /* LZO.h in Headers */,
+				8F7E4A5C2589F9C8422F7352ECF90DC0 /* MSS.h in Headers */,
+				34FC68E2DE356F091BCD62C4BCD506B6 /* PacketMacros.h in Headers */,
+				D890CC6BABF47E83B674297A809D6D1E /* PacketStream.h in Headers */,
+				1C87D79776BDDAE3FF4EFD5FF3510531 /* ReplayProtector.h in Headers */,
+				F4A2BDE4B8EAA00F87CEBCA80DDA64C8 /* route.h in Headers */,
+				68544CB24D9CF53936EC5C9C2333D6F7 /* RoutingTable.h in Headers */,
+				EBB91B9ABEB15A59522E30A2171A55EE /* RoutingTableEntry.h in Headers */,
+				A7FEB3F0A5A9AD96218BEAF36FE18BE0 /* TLSBox.h in Headers */,
+				864285C398DC18F6F96EC77198042EAC /* TunnelKit-umbrella.h in Headers */,
+				C1D98B2FDA0C3DE601A9B7210C448B76 /* ZeroingData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AB4D979C98F6015C0DA30A998F5F85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F71F06BFCC59375A917C16DFAA78126 /* Pods-DiOSAPP-DiOSAPP_Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B5A7FD1E704BFD99579C3FBF9EFEC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B226C7725384C0E31F10916BE129CB /* Pods-DiOSAPPTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FF9CACF478C5C3A9767B50CE264083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2E991AC05EA9ED43452A89CAD8D07B /* Pods-DiOSAPP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB28D725C306F97AFF77C8D1C5A9C2C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46544C3ADF8E8C10589E36D5D56B9AFC /* Pods-DiOSAPPUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0461A38649A60EEB0536125914DA4486 /* Pods-DiOSAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4FB3C83A8BA9977AE95CCBBA3361C /* Build configuration list for PBXNativeTarget "Pods-DiOSAPPUITests" */;
+			buildPhases = (
+				EB28D725C306F97AFF77C8D1C5A9C2C2 /* Headers */,
+				3AA2B935E31D26B728B04D2D5D1B3F9A /* Sources */,
+				614E511A6AA91E82C517CF86CB681A73 /* Frameworks */,
+				A93AF83FA9A8BEA41D7C52864954FC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F23CA910C55B8AB6476ED3234FE0B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DiOSAPPUITests";
+			productName = "Pods-DiOSAPPUITests";
+			productReference = 0E8448F07D4B7DD6035E57CF523FB657 /* Pods_DiOSAPPUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C51412FD0FF25D71B920C2CE9AA18DD /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				021FE0E78FBA93485336C1B7631CCC7E /* Headers */,
+				3167C7BDCAEE60653DE7DDB5142CDAD9 /* Sources */,
+				0A65D2A87A2A718136F5534398BBB2A8 /* Frameworks */,
+				11B03B0F1B01190B7B69897AA860EE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26874592A9E559E3CB577474EF07A698 /* Pods-DiOSAPP-DiOSAPP_Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A667656C002A9E25F393B50E53FE5 /* Build configuration list for PBXNativeTarget "Pods-DiOSAPP-DiOSAPP_Extension" */;
+			buildPhases = (
+				63AB4D979C98F6015C0DA30A998F5F85 /* Headers */,
+				A2489EFCE8272C4D1BEDA4A851CA3C64 /* Sources */,
+				ED0D18D578543C5FAC942F7104B45E17 /* Frameworks */,
+				1C0F295058DF51BA7552E89ADE1430BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5D528313807C2E37D550F068894858B /* PBXTargetDependency */,
+				C9DB77618A03DC78907610BBAD31A73A /* PBXTargetDependency */,
+				7C51815B8D16B4B8887FF92804D833BD /* PBXTargetDependency */,
+			);
+			name = "Pods-DiOSAPP-DiOSAPP_Extension";
+			productName = "Pods-DiOSAPP-DiOSAPP_Extension";
+			productReference = 3398D7763D55DDA23E07F3AFA20FFDBE /* Pods_DiOSAPP_DiOSAPP_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D19EB7B01FE882EA71F4F8F7573D668 /* TunnelKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E4D4606AD23E4E3B8FDF7AB0F33BCC /* Build configuration list for PBXNativeTarget "TunnelKit" */;
+			buildPhases = (
+				5B3EB42C0CBB9831FA0129605235B377 /* Headers */,
+				156BB40583BF79C67591AB4331B92A14 /* Sources */,
+				F9D02BD9AAD5D684F906E41A3E1FB407 /* Frameworks */,
+				08A5A62DF8E42A48D1EAEE962055CE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2435C015C1B63BEDDA4D7319CA451A /* PBXTargetDependency */,
+				D2F47267066173AF4D21EE0FD1A0FCFB /* PBXTargetDependency */,
+			);
+			name = TunnelKit;
+			productName = TunnelKit;
+			productReference = 500D9C95D71996A586563B5E889D020B /* TunnelKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CED78199697438AA0BEE3CBABCAE2BF6 /* Pods-DiOSAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67510BE14B3B2C94D9CA471DAD815A4E /* Build configuration list for PBXNativeTarget "Pods-DiOSAPPTests" */;
+			buildPhases = (
+				B5B5A7FD1E704BFD99579C3FBF9EFEC2 /* Headers */,
+				C4761F8475FF7AB70F0478EE74FD6340 /* Sources */,
+				6D4C9FFA780E2CBBAAFB414A7BFE6F70 /* Frameworks */,
+				C1BC9AA8B39B7AA1117704C620D5470F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13C5FDA9980AF9BFEF8F4F5F5678E9C /* PBXTargetDependency */,
+			);
+			name = "Pods-DiOSAPPTests";
+			productName = "Pods-DiOSAPPTests";
+			productReference = 0F3C923B053D128F46F50097ACB6C2B5 /* Pods_DiOSAPPTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F24B7CB5F930ED9474F1ED8C3B3B34AB /* Pods-DiOSAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD51913F752399632E3C6A72B04D268 /* Build configuration list for PBXNativeTarget "Pods-DiOSAPP" */;
+			buildPhases = (
+				E0FF9CACF478C5C3A9767B50CE264083 /* Headers */,
+				081626CEF1AFC6172CBDA4B84F12D1A1 /* Sources */,
+				6BC2AB5294371759DDF05647FA5FE96A /* Frameworks */,
+				D0211959479D8F92FCA58D5D09A359F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D0FF7A8E6E1C3E4EB77CFFA069B538 /* PBXTargetDependency */,
+				1F71F4CE8700B147CDAFA7944FD0E200 /* PBXTargetDependency */,
+				845CE28B8663FCC47491711C5A78A6FE /* PBXTargetDependency */,
+			);
+			name = "Pods-DiOSAPP";
+			productName = "Pods-DiOSAPP";
+			productReference = D473FF8F990B79D389BC51D386FAD80F /* Pods_DiOSAPP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8F5FEB08A0F24E51FAB53A0C9150F676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8DFF8583A4AD4A2EC8FC32ABE7D6FF /* OpenSSL-Apple */,
+				F24B7CB5F930ED9474F1ED8C3B3B34AB /* Pods-DiOSAPP */,
+				26874592A9E559E3CB577474EF07A698 /* Pods-DiOSAPP-DiOSAPP_Extension */,
+				CED78199697438AA0BEE3CBABCAE2BF6 /* Pods-DiOSAPPTests */,
+				0461A38649A60EEB0536125914DA4486 /* Pods-DiOSAPPUITests */,
+				1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */,
+				3D19EB7B01FE882EA71F4F8F7573D668 /* TunnelKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A5A62DF8E42A48D1EAEE962055CE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B03B0F1B01190B7B69897AA860EE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0F295058DF51BA7552E89ADE1430BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93AF83FA9A8BEA41D7C52864954FC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BC9AA8B39B7AA1117704C620D5470F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0211959479D8F92FCA58D5D09A359F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081626CEF1AFC6172CBDA4B84F12D1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E52C8F1E9C78C4F9C21AAEFCB0BE57 /* Pods-DiOSAPP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156BB40583BF79C67591AB4331B92A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43469DAD95DC571613EAF4852A2240AC /* Allocation.m in Sources */,
+				AD176EFE4FFE9B1B06A078D76E0DED27 /* Authenticator.swift in Sources */,
+				3EDAB3E04892CE66E2029125650FE0D8 /* BidirectionalState.swift in Sources */,
+				FE7614B4363530998D0E2E991D91C47D /* CompressionAlgorithm.swift in Sources */,
+				3F48F59602DE64D25E7AB06372A56BDC /* CompressionFraming.swift in Sources */,
+				7A988FFF24ACEA436787C1A386DE43A3 /* Configuration.swift in Sources */,
+				8BD1797F0A4D11CD20393BE808AB1D65 /* ConfigurationError.swift in Sources */,
+				7AC060902546662E86FB77E526E7975F /* ConfigurationParser.swift in Sources */,
+				53E5F201AEE6ADC840C8AF38CD328359 /* ConnectionStrategy.swift in Sources */,
+				B914D9BD30E6D33BFF345E32DB5842EA /* ControlChannel.swift in Sources */,
+				DBBDBD38D355E172AF7E4C202718F1D3 /* ControlChannelSerializer.swift in Sources */,
+				92C4CEE88B648BB661D1B21F869CF153 /* ControlPacket.m in Sources */,
+				74B9C323FEB0F12824D7719C3A1EC954 /* CoreConfiguration+OpenVPN.swift in Sources */,
+				4D4F58AE266BC2DC8938CE1BD347DEB7 /* CoreConfiguration.swift in Sources */,
+				C3810313FC50FD8CD900552E82B946FB /* CryptoAEAD.m in Sources */,
+				7E88F6A86E61D605241F523AF261F6DF /* CryptoBox.m in Sources */,
+				1F0202F10E11C06BE8D920A5C9CC36EF /* CryptoCBC.m in Sources */,
+				B7AFD9314DC16AF034206E173EB9C2D0 /* CryptoContainer.swift in Sources */,
+				9CB21A294066E9E4BDA33BD619FC6AAB /* CryptoCTR.m in Sources */,
+				560600A088217826D052A0001B0C10F1 /* Data+Manipulation.swift in Sources */,
+				4454A6947492608D0818818890650778 /* DataPath.m in Sources */,
+				C6DF38F1AE25453447E61167AA11E1B6 /* DNS.m in Sources */,
+				804AAE43E8BF76E1411C9A6975CF7DED /* DNSResolver.swift in Sources */,
+				C9C942DA8D6461E2D8C86DCC6A749553 /* EncryptionBridge.swift in Sources */,
+				27F4B80F7CC7AFD9EAA9998D0E1A0A80 /* EndpointProtocol.swift in Sources */,
+				A71A9DF2B8BFDDD5F949795606A173E6 /* Errors.m in Sources */,
+				C49342E8D0A85325C6B3EC3C1D9275AB /* Errors.swift in Sources */,
+				18F5132062287F79EAB1006A602D0EFE /* GenericSocket.swift in Sources */,
+				17D64E86E8FD75A68FDE70B24ED33F91 /* InterfaceObserver.swift in Sources */,
+				B4C01B93DF6C1D6F8912659D8F3F6C0E /* IOInterface.swift in Sources */,
+				C27308E76A83C09A031A3F33AC0913CA /* IPv4Settings.swift in Sources */,
+				87746F3635A534433F384A6BB2FCF420 /* IPv6Settings.swift in Sources */,
+				13584405EAC93033A1B7227EEFDE6C34 /* Keychain.swift in Sources */,
+				293068BC3AACE78F605B99EE5251852F /* LinkInterface.swift in Sources */,
+				E2C22A6DD29DF16E0095E5EAB166C6B6 /* LinkProducer.swift in Sources */,
+				C40974D2543F3847E03F639F50D02807 /* LZO.m in Sources */,
+				EAD56C4F76D1C09E8A493C54DC487C8B /* MemoryDestination.swift in Sources */,
+				DA294039655DA97AD319F9C30ADBBF08 /* MSS.m in Sources */,
+				A9761C40FC64E55AE11C632EC84CF477 /* NETCPLink.swift in Sources */,
+				901468FF60A103B82F4BF2F2D801C27D /* NETCPSocket.swift in Sources */,
+				8AD3F6F17723BDAB71BA8F7FD6E4B907 /* NETunnelInterface.swift in Sources */,
+				49FB9A9BCFAB499122340AC8AC410ED5 /* NEUDPLink.swift in Sources */,
+				B8EB749202A45A9EC633D857D8F12F8C /* NEUDPSocket.swift in Sources */,
+				7B4D8474D1384CB36FB87E937B5D1897 /* NSRegularExpression+Shortcuts.swift in Sources */,
+				71D57BB7935B6CAB1D3DF27D62028409 /* NWTCPConnectionState+Description.swift in Sources */,
+				0091F9C84BFCD9374A073F1A0D24A1EF /* NWUDPSessionState+Description.swift in Sources */,
+				E3CF4DF7D0F7EAB8D8ED121A0919D9CB /* OpenVPN.swift in Sources */,
+				DFFB172CE79F21F1E5F597ECC33D48DD /* OpenVPNError.swift in Sources */,
+				1A5622E1FB9D17B26D4134A962A6E3B7 /* OpenVPNSession+PIA.swift in Sources */,
+				7BA5A8189B38456A0BC2B7A0F178F26E /* OpenVPNSession.swift in Sources */,
+				48D48A66B8A7D7008A37BECE533BF6A9 /* OpenVPNTunnelProvider+Configuration.swift in Sources */,
+				7A5B39A1FFF45665EE9FA699881584A5 /* OpenVPNTunnelProvider+Interaction.swift in Sources */,
+				B3B6351C44371E748095F12EEBA6862F /* OpenVPNTunnelProvider.swift in Sources */,
+				322A24D2425F5B70DC48C8EF1FF6A511 /* Packet.swift in Sources */,
+				84BD06AB311FF6C7FBBEE36CE1E2D541 /* PacketMacros.m in Sources */,
+				3FF05BDEE58E8927F1768D4837FBC273 /* PacketStream.m in Sources */,
+				DD44C85C04734BD7A3232BDB966B7F82 /* ProtocolMacros.swift in Sources */,
+				2C5A2C508EB5DD5CDDD924CF40A69D95 /* Proxy.swift in Sources */,
+				74A7F9796CB6CDAEDF1950DE02735551 /* PushReply.swift in Sources */,
+				65FC29826F1D21584B11C91602CA0ED3 /* ReplayProtector.m in Sources */,
+				A307657DDA8098E847412B701D350170 /* RoutingTable.m in Sources */,
+				9F7EAC900A4E0460A300BEA623F8E1B7 /* RoutingTableEntry.m in Sources */,
+				ADC7390F43DE86CAD0EFA1998C62D03A /* SecureRandom.swift in Sources */,
+				BC5E66E337E2E05992DEB8119F03F164 /* Session.swift in Sources */,
+				A43FFD3184DF40B10BC0DF05E4B7DF24 /* SessionKey.swift in Sources */,
+				49DE04D6D4381EDEC1BF07B8E52A087D /* SocketType.swift in Sources */,
+				653F9DB977D5160C8E273223B689BDD2 /* StaticKey.swift in Sources */,
+				A8343731BD89CBAC8C362222A387A914 /* TLSBox.m in Sources */,
+				9310801FBE04C82E80EC739DC04CEC34 /* TLSWrap.swift in Sources */,
+				47714386578EC27CBB5573B2DCC80260 /* TunnelInterface.swift in Sources */,
+				6411904BC4A3764FD5A63CEDC5F21BB7 /* TunnelKit-dummy.m in Sources */,
+				4165ED5FB7FC572C120E782FCA8858B3 /* Utils.swift in Sources */,
+				42C9D43A06CA9FCC0575E3BB35FB99A3 /* ZeroingData.m in Sources */,
+				38584F3E70B8996DB177371FEB49660C /* ZeroingData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3167C7BDCAEE60653DE7DDB5142CDAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830AC211266A20EA05699D42F992688B /* AES256CBC.swift in Sources */,
+				B43A1AC4E7C15DCA37E1FDB6FC872C56 /* Base64.swift in Sources */,
+				3D763AE749ECB64E4B0888A359EB50DA /* BaseDestination.swift in Sources */,
+				435E69132E914A354CF82DFF9087E6B9 /* ConsoleDestination.swift in Sources */,
+				A3A003AA3B936AAEFB51BD42D5195861 /* Extensions.swift in Sources */,
+				E37912A056657E18FC98C058748C19A2 /* FileDestination.swift in Sources */,
+				3B5C68A889447D559CC3F7DEB7991E14 /* Filter.swift in Sources */,
+				B4AA1BAFD15100E0803804047E0A5431 /* GoogleCloudDestination.swift in Sources */,
+				AC35EB337233EA969EE7EF0490BA1D6C /* SBPlatformDestination.swift in Sources */,
+				8B58FA7B31153C0891805D89B6855CDF /* SwiftyBeaver-dummy.m in Sources */,
+				7EED7F749F7F44CDD431BB445729A16B /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA2B935E31D26B728B04D2D5D1B3F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399DB1B418AA9D80C55CFC00B25521A6 /* Pods-DiOSAPPUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2489EFCE8272C4D1BEDA4A851CA3C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B30202D26C8F14F278099A13658FDE /* Pods-DiOSAPP-DiOSAPP_Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4761F8475FF7AB70F0478EE74FD6340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDF08B6BC0674B270AF50E057A1B6CD /* Pods-DiOSAPPTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C2435C015C1B63BEDDA4D7319CA451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Apple";
+			target = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF /* OpenSSL-Apple */;
+			targetProxy = 554E5768B67269E4237D81103B90F539 /* PBXContainerItemProxy */;
+		};
+		1F71F4CE8700B147CDAFA7944FD0E200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
+			targetProxy = 00F3800597C32A40A3D9D03D6B4D52E4 /* PBXContainerItemProxy */;
+		};
+		7C51815B8D16B4B8887FF92804D833BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TunnelKit;
+			target = 3D19EB7B01FE882EA71F4F8F7573D668 /* TunnelKit */;
+			targetProxy = 517A6BDE128135D3D5FF135F47205634 /* PBXContainerItemProxy */;
+		};
+		80D0FF7A8E6E1C3E4EB77CFFA069B538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Apple";
+			target = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF /* OpenSSL-Apple */;
+			targetProxy = DED226FF4A8E7E5C7A2CD37EB682D0DC /* PBXContainerItemProxy */;
+		};
+		845CE28B8663FCC47491711C5A78A6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TunnelKit;
+			target = 3D19EB7B01FE882EA71F4F8F7573D668 /* TunnelKit */;
+			targetProxy = C35C5805682995A5638A9CF5189724CB /* PBXContainerItemProxy */;
+		};
+		A13C5FDA9980AF9BFEF8F4F5F5678E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DiOSAPP";
+			target = F24B7CB5F930ED9474F1ED8C3B3B34AB /* Pods-DiOSAPP */;
+			targetProxy = B63035BFADA9D131668D07199CC702AC /* PBXContainerItemProxy */;
+		};
+		C9DB77618A03DC78907610BBAD31A73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
+			targetProxy = B8136B5E9D3F217AC4C6CE05452A1F7F /* PBXContainerItemProxy */;
+		};
+		D2F47267066173AF4D21EE0FD1A0FCFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
+			targetProxy = 0BA3BD00CD33E20EDE19281B37AD5734 /* PBXContainerItemProxy */;
+		};
+		D6F23CA910C55B8AB6476ED3234FE0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DiOSAPP";
+			target = F24B7CB5F930ED9474F1ED8C3B3B34AB /* Pods-DiOSAPP */;
+			targetProxy = 0370420EC12D44EA2AA8B1762EA94A9C /* PBXContainerItemProxy */;
+		};
+		E5D528313807C2E37D550F068894858B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Apple";
+			target = 1B8DFF8583A4AD4A2EC8FC32ABE7D6FF /* OpenSSL-Apple */;
+			targetProxy = 70C20CD271D8B1E4D931FD264E793526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DFD9D3EF7A490954740D9FB9CD7EAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E746FB8F2E6A84E4DEFF32CECE3627F /* TunnelKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TunnelKit/TunnelKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TunnelKit/TunnelKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TunnelKit/TunnelKit.modulemap";
+				PRODUCT_MODULE_NAME = TunnelKit;
+				PRODUCT_NAME = TunnelKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21010E5B2E5F0C54D0989523C2D1450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3C3A2C3C40EE2B58A7FA86DD78A573 /* Pods-DiOSAPPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B6404B440171763625A5B98545AF3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9D2F16A9E1DFF4256381FAF080FA54 /* Pods-DiOSAPPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FFC4CA4DACFB4265B23B21EC580F5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C296DB74D6F62A1EE6BCD167411866 /* Pods-DiOSAPP-DiOSAPP_Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AAE23F116E9143E04015AB358C73581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988A2F47255667065C252934EE1C2550 /* Pods-DiOSAPP.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62703B72B5DC648D48D4E76B3BFEC196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E746FB8F2E6A84E4DEFF32CECE3627F /* TunnelKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TunnelKit/TunnelKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TunnelKit/TunnelKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TunnelKit/TunnelKit.modulemap";
+				PRODUCT_MODULE_NAME = TunnelKit;
+				PRODUCT_NAME = TunnelKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		685ED6E8FC434CA99BCDB4E6FFD06A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BD0255741158384073D4D6F02AACA6 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		708E4099939151DFC8C6CD843A45F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876AE9AA97ABC326E07EAC11A70FE1BA /* OpenSSL-Apple.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721227A49D0BC8CF9E216C53C3169448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BD0255741158384073D4D6F02AACA6 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		919E3B841640F1534290A81B305957D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FC653E8ACA674ED323B09AF2F33C57 /* Pods-DiOSAPPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPPUITests/Pods-DiOSAPPUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF87218A50D20E868CE7A57C7032FFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668275EC79FA0FA5879F340E884D8EDC /* Pods-DiOSAPPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPPTests/Pods-DiOSAPPTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAFF5E082E9A658CDF28CC483E124349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876AE9AA97ABC326E07EAC11A70FE1BA /* OpenSSL-Apple.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6990BB9BC9AF200FCDD9D2E2F023676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901C213B08AA036AF07E8FD43271A301 /* Pods-DiOSAPP.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPP/Pods-DiOSAPP.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9117EBC850F77F503933F927EDB7BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6675C72B7BEBD9D7F1E15D7EC11BFE2 /* Pods-DiOSAPP-DiOSAPP_Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiOSAPP-DiOSAPP_Extension/Pods-DiOSAPP-DiOSAPP_Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E4D4606AD23E4E3B8FDF7AB0F33BCC /* Build configuration list for PBXNativeTarget "TunnelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62703B72B5DC648D48D4E76B3BFEC196 /* Debug */,
+				1DFD9D3EF7A490954740D9FB9CD7EAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67510BE14B3B2C94D9CA471DAD815A4E /* Build configuration list for PBXNativeTarget "Pods-DiOSAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF87218A50D20E868CE7A57C7032FFD9 /* Debug */,
+				21010E5B2E5F0C54D0989523C2D1450C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF05F4E8433289F81624BAD0397FE4B /* Build configuration list for PBXAggregateTarget "OpenSSL-Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF5E082E9A658CDF28CC483E124349 /* Debug */,
+				708E4099939151DFC8C6CD843A45F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C51412FD0FF25D71B920C2CE9AA18DD /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721227A49D0BC8CF9E216C53C3169448 /* Debug */,
+				685ED6E8FC434CA99BCDB4E6FFD06A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4FB3C83A8BA9977AE95CCBBA3361C /* Build configuration list for PBXNativeTarget "Pods-DiOSAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E3B841640F1534290A81B305957D4 /* Debug */,
+				3B6404B440171763625A5B98545AF3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD51913F752399632E3C6A72B04D268 /* Build configuration list for PBXNativeTarget "Pods-DiOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAE23F116E9143E04015AB358C73581 /* Debug */,
+				D6990BB9BC9AF200FCDD9D2E2F023676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A667656C002A9E25F393B50E53FE5 /* Build configuration list for PBXNativeTarget "Pods-DiOSAPP-DiOSAPP_Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC4CA4DACFB4265B23B21EC580F5AA /* Debug */,
+				F9117EBC850F77F503933F927EDB7BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
