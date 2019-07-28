@@ -102,13 +102,8 @@ class ViewController: UIViewController, WKUIDelegate{
                                                object: nil)
         
         reloadCurrentManager(nil)
-        
-        //
-        
         testFetchRef()
-        
         connection()
-        loadMyCompanyWebPage()
         // Do any additional setup after loading the view.
     }
     
@@ -249,9 +244,13 @@ class ViewController: UIViewController, WKUIDelegate{
     
     func updateButton() {
         switch status {
-        case .connected, .connecting:
+        case .connected:
               print("Connected!!!")
         // TODO: Goto webview
+            loadMyCompanyWebPage()
+        case .connecting:
+            print("Connecting...")
+            // Load my company webpage
             loadMyCompanyWebPage()
         case .disconnected:
             print("disConnected!!!")
