@@ -42,7 +42,7 @@ wOgathAN44PrxLAI8kkxkngxby1xrG7LtMmpATxY7fYLOQ9yHge7RRZKDieJcX3j
 extension ViewController {
     private static let appGroup = "group.com.DiOSAPP.openVPN"
     
-    private static let tunnelIdentifier = "com.DiOSAPP.openVPN"
+    private static let tunnelIdentifier = "com.DiOSAPP.openVPN.Extension"
     
     private func makeProtocol() -> NETunnelProviderProtocol {
         let server = "pl226"
